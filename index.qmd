@@ -25,14 +25,14 @@ Deux possibilités (la première étant préférable car elle facilite la mise �
 
 - `VSCode` peut être installé depuis [ce lien](https://code.visualstudio.com/).
 
-- L'extension `Julia` pour `VSCode` est disponible [ici](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) mais peut aussi être installée depuis `VSCode` (icône ![](logo_ext_vscode.png)).
+- L'extension `Julia` pour `VSCode` est disponible [ici](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) ou directement dans `VSCode` (icône ![](logo_ext_vscode.png)).
 
-## Équipe enseignante :
+## Équipe enseignante
 
-- Groupe 1, salle F201: [Jean-François Barthélémy](https://www.cerema.fr/fr/innovation-recherche/recherche/equipes/membre/jean-francois-barthelemy) (jean-francois.barthelemy@cerema.fr)
+- Groupe 1, salle F102: [Jean-François Barthélémy](https://jfbarthelemy.github.io/) (jean-francois.barthelemy@cerema.fr)
 
-- Groupe 2, salle F202: [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
+- Groupe 2, salle F103: [Louis Carillo](https://louiscarillo.github.io/) (louis.carillo@enpc.fr)
 
-- Groupe 3, salle F207: [Urbain Vaes](https://urbain.vaes.uk/) (urbain.vaes@inria.fr)
+- Groupe 3, salle F108: [Urbain Vaes](https://urbain.vaes.uk/) (urbain.vaes@inria.fr)
 
 Si vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours.

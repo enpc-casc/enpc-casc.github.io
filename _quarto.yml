@@ -9,7 +9,9 @@ project:
 
 website:
   title: "Pratique du calcul scientifique"
+  favicon: "logo_calcul_scientifique.png"
   navbar:
+    logo: "logo_calcul_scientifique.png"
     left:
       - href: poly.qmd
         text: Polycopié
@@ -30,6 +32,6 @@ editor:
 
 format:
   html:
-    theme: zephyr
+    theme: default
     css: styles.css
     toc: true

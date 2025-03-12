@@ -4,7 +4,7 @@
 
 - [Introduction au langage Julia](cours/julia.html)
 
-## Semaine 2
+<!-- ## Semaine 2
 
 - [Interpolation et approximation](cours/interpolation.html)
 
@@ -24,4 +24,4 @@
 
 ## Semaine 6
 
-- [Équations différentielles ordinaires](cours/odes.html)
+- [Équations différentielles ordinaires](cours/odes.html) -->

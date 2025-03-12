@@ -4,9 +4,9 @@
 
 - [Introduction au langage Julia](notebooks/intro_julia.ipynb)
 
-Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=65028) au plus tard le **jeudi 25 avril 2024, 23:59**.
+Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=65028) au plus tard le **xxx 2025, 23:59**.
 
-## Semaine 2
+<!-- ## Semaine 2
 
 - [Interpolation, approximation et intégration](notebooks/interpolation.ipynb)
 
@@ -42,4 +42,4 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Équations différentielles ordinaires: solutions](notebooks/odes_sol.ipynb)
 
-Ce notebook n'est pas à remettre.
+Ce notebook n'est pas à remettre. -->

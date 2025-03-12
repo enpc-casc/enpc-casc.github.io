@@ -1,6 +1,6 @@
-# Examen de rattrapage
+# Examen
 
-**Consignes** :
+<!-- **Consignes** :
 
 - Seules les soumissions via [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=66064) seront acceptées.
 
@@ -13,4 +13,4 @@
 
 - Toutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.
 
-- L'**heure limite** de remise est à 16h15.
+- L'**heure limite** de remise est à 16h15. -->
