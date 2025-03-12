@@ -32,6 +32,8 @@ editor:
 
 format:
   html:
-    theme: default
+    theme:
+      light: default
+      dark: cyborg
     css: styles.css
     toc: true
