@@ -34,6 +34,6 @@ format:
   html:
     theme:
       light: default
-      dark: solar
+      dark: superhero
     css: styles.css
     toc: true
