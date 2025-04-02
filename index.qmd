@@ -1,6 +1,6 @@
 ---
 title: "Pratique du calcul scientifique"
-subtitle: École des Ponts ParisTech
+subtitle: "École nationale des ponts et chaussées"
 ---
 
 ## Installations préalables
@@ -15,11 +15,7 @@ Deux possibilités :
 
 ### `Julia`
 
-Deux possibilités (la première étant préférable car elle facilite la mise à jour des versions) :
-
-- installer le gestionnaire de version [juliaup](https://github.com/JuliaLang/juliaup), par exemple [ici](https://www.microsoft.com/store/apps/9NJNWW8PVKMN) pour Windows,
-
-- ou installer la dernière version depuis le site : <https://julialang.org/downloads>.
+Installer la dernière version depuis [ce lien](https://julialang.org/downloads).
 
 ### `VSCode`
 

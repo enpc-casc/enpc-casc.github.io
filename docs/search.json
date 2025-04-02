@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "poly.html",
+    "href": "poly.html",
+    "title": "Polycopié du cours",
+    "section": "",
+    "text": "Polycopié du cours\n\nNotes complètes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+  },
+  {
     "objectID": "liens.html",
     "href": "liens.html",
     "title": "Liens utiles",
@@ -28,32 +35,11 @@
     "text": "Intro to Julia tutorial et notebooks associés\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\nAutomatic Differentiation in 10 minutes with Julia"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "exam.html",
+    "href": "exam.html",
+    "title": "Examen",
     "section": "",
-    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html#credit",
-    "href": "about.html#credit",
-    "title": "About",
-    "section": "Credit",
-    "text": "Credit\nPlusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024: Noé Blassel (noe.blassel@enpc.fr)\n2023: Shiva Darshan (shiva.darshan@enpc.fr)\n2023: Renato Spacek"
-  },
-  {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
-  },
-  {
-    "objectID": "notebooks.html#semaine-1",
-    "href": "notebooks.html#semaine-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
+    "text": "Examen"
   },
   {
     "objectID": "cours.html",
@@ -77,32 +63,25 @@
     "text": "Archives"
   },
   {
-    "objectID": "exam.html",
-    "href": "exam.html",
-    "title": "Examen",
+    "objectID": "credits.html",
+    "href": "credits.html",
+    "title": "Crédits",
     "section": "",
-    "text": "Examen"
-  },
-  {
-    "objectID": "poly.html",
-    "href": "poly.html",
-    "title": "Polycopié du cours",
-    "section": "",
-    "text": "Polycopié du cours\n\nNotes complètes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nDeux possibilités (la première étant préférable car elle facilite la mise à jour des versions) :\n\ninstaller le gestionnaire de version juliaup, par exemple ici pour Windows,\nou installer la dernière version depuis le site : https://julialang.org/downloads.\n\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
   },
   {
     "objectID": "index.html#installations-préalables",
     "href": "index.html#installations-préalables",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nDeux possibilités (la première étant préférable car elle facilite la mise à jour des versions) :\n\ninstaller le gestionnaire de version juliaup, par exemple ici pour Windows,\nou installer la dernière version depuis le site : https://julialang.org/downloads.\n\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
   },
   {
     "objectID": "index.html#équipe-enseignante",
@@ -110,5 +89,19 @@
     "title": "Pratique du calcul scientifique",
     "section": "Équipe enseignante",
     "text": "Équipe enseignante\n\nGroupe 1, salle F102: Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\nGroupe 2, salle F103: Louis Carillo (louis.carillo@enpc.fr)\nGroupe 3, salle F108: Urbain Vaes (urbain.vaes@inria.fr)\n\nSi vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours."
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#semaine-1",
+    "href": "notebooks.html#semaine-1",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
   }
 ]

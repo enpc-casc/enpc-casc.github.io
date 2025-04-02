@@ -25,7 +25,8 @@ website:
         text: Archives
       - href: liens.qmd
         text: Liens utiles
-      - about.qmd
+      - href: credits.qmd
+        text: Crédits
 
 editor:
     render-on-save: true
