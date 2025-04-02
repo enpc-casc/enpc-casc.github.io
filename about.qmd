@@ -2,6 +2,14 @@
 title: "About"
 ---
 
-This is a Quarto website.
+This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Credit
+
+Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d'anciens membres de l'équipe enseignante :
+
+- 2023, 2024: [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
+
+- 2023: [Noé Blassel](https://shiva-darshan.github.io/) (shiva.darshan@enpc.fr)
+
+- 2023: [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
