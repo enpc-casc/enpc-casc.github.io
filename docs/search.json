@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "poly.html",
-    "href": "poly.html",
-    "title": "Polycopié du cours",
-    "section": "",
-    "text": "Polycopié du cours\n\nNotes complètes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
-  },
-  {
     "objectID": "liens.html",
     "href": "liens.html",
     "title": "Liens utiles",
@@ -35,25 +28,32 @@
     "text": "Intro to Julia tutorial et notebooks associés\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\nAutomatic Differentiation in 10 minutes with Julia"
   },
   {
-    "objectID": "exam.html",
-    "href": "exam.html",
-    "title": "Examen",
-    "section": "",
-    "text": "Examen"
-  },
-  {
-    "objectID": "archives.html",
-    "href": "archives.html",
-    "title": "Archives",
-    "section": "",
-    "text": "Archives"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html#credit",
+    "href": "about.html#credit",
+    "title": "About",
+    "section": "Credit",
+    "text": "Credit\nPlusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024: Noé Blassel (noe.blassel@enpc.fr)\n2023: Shiva Darshan (shiva.darshan@enpc.fr)\n2023: Renato Spacek"
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#semaine-1",
+    "href": "notebooks.html#semaine-1",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
   },
   {
     "objectID": "cours.html",
@@ -68,6 +68,27 @@
     "title": "Cours",
     "section": "",
     "text": "Introduction au langage Julia"
+  },
+  {
+    "objectID": "archives.html",
+    "href": "archives.html",
+    "title": "Archives",
+    "section": "",
+    "text": "Archives"
+  },
+  {
+    "objectID": "exam.html",
+    "href": "exam.html",
+    "title": "Examen",
+    "section": "",
+    "text": "Examen"
+  },
+  {
+    "objectID": "poly.html",
+    "href": "poly.html",
+    "title": "Polycopié du cours",
+    "section": "",
+    "text": "Polycopié du cours\n\nNotes complètes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
   },
   {
     "objectID": "index.html",
@@ -89,19 +110,5 @@
     "title": "Pratique du calcul scientifique",
     "section": "Équipe enseignante",
     "text": "Équipe enseignante\n\nGroupe 1, salle F102: Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\nGroupe 2, salle F103: Louis Carillo (louis.carillo@enpc.fr)\nGroupe 3, salle F108: Urbain Vaes (urbain.vaes@inria.fr)\n\nSi vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours."
-  },
-  {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
-  },
-  {
-    "objectID": "notebooks.html#semaine-1",
-    "href": "notebooks.html#semaine-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le xxx 2025, 23:59."
   }
 ]
