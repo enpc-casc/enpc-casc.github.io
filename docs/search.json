@@ -28,18 +28,11 @@
     "text": "Intro to Julia tutorial et notebooks associés\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\nAutomatic Differentiation in 10 minutes with Julia"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "credits.html",
+    "href": "credits.html",
+    "title": "Crédits",
     "section": "",
-    "text": "This is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html#credit",
-    "href": "about.html#credit",
-    "title": "About",
-    "section": "Credit",
-    "text": "Credit\nPlusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024: Noé Blassel (noe.blassel@enpc.fr)\n2023: Shiva Darshan (shiva.darshan@enpc.fr)\n2023: Renato Spacek"
+    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez https://quarto.org/docs/websites."
   },
   {
     "objectID": "notebooks.html",
@@ -95,14 +88,14 @@
     "href": "index.html",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nDeux possibilités (la première étant préférable car elle facilite la mise à jour des versions) :\n\ninstaller le gestionnaire de version juliaup, par exemple ici pour Windows,\nou installer la dernière version depuis le site : https://julialang.org/downloads.\n\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
   },
   {
     "objectID": "index.html#installations-préalables",
     "href": "index.html#installations-préalables",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nDeux possibilités (la première étant préférable car elle facilite la mise à jour des versions) :\n\ninstaller le gestionnaire de version juliaup, par exemple ici pour Windows,\nou installer la dernière version depuis le site : https://julialang.org/downloads.\n\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
   },
   {
     "objectID": "index.html#équipe-enseignante",
