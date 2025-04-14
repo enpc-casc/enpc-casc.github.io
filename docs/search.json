@@ -102,7 +102,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59."
+    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration"
   },
   {
     "objectID": "notebooks.html#semaine-1",
@@ -110,5 +110,12 @@
     "title": "Notebooks",
     "section": "",
     "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#semaine-2",
+    "href": "notebooks.html#semaine-2",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Interpolation, approximation et intégration"
   }
 ]

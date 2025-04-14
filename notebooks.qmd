@@ -6,13 +6,11 @@
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70679) au plus tard le **lundi 14 avril, 23:59**.
 
-<!-- ## Semaine 2
+## Semaine 2
 
 - [Interpolation, approximation et intégration](notebooks/interpolation.ipynb)
 
-Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=65147) au plus tard le **jeudi 2 mai 2024, 23:59**.
-
-## Semaine 3
+<!-- ## Semaine 3
 
 - [Systèmes linéaires](notebooks/linear.ipynb)
 

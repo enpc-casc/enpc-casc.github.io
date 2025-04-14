@@ -4,13 +4,13 @@
 
 - [Introduction au langage Julia](cours/julia.html)
 
-<!-- ## Semaine 2
+## Semaine 2
 
 - [Interpolation et approximation](cours/interpolation.html)
 
 - [Intégration](cours/integration.html)
 
-## Semaine 3
+<!-- ## Semaine 3
 
 - [Systèmes linéaires](cours/linear.html)
 
