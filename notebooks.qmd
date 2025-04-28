@@ -10,19 +10,15 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Interpolation, approximation et intégration](notebooks/interpolation.ipynb)
 
-<!-- ## Semaine 3
+## Semaine 3
 
 - [Systèmes linéaires](notebooks/linear.ipynb)
 
 **Correction**: Dans l'énoncé de l'exercice 3.4,
 
-- remplacer `e_k` par `r_k`
+Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70815) au plus tard le **lundi 12 mai, 23:59**.
 
-- remplacer A - ωI par I - ωA
-
-Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=65638) au plus tard le **jeudi 16 mai 2024, 23:59**.
-
-## Semaine 4
+<!-- ## Semaine 4
 
 - [Problèmes aux valeurs propres](notebooks/eigen.ipynb)
 
