@@ -14,8 +14,6 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Systèmes linéaires](notebooks/linear.ipynb)
 
-**Correction**: Dans l'énoncé de l'exercice 3.4,
-
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70815) au plus tard le **lundi 12 mai, 23:59**.
 
 <!-- ## Semaine 4
