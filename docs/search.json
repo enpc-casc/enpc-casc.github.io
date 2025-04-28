@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration"
+    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -61,6 +61,13 @@
     "title": "Cours",
     "section": "",
     "text": "Interpolation et approximation\nIntégration"
+  },
+  {
+    "objectID": "cours.html#semaine-3",
+    "href": "cours.html#semaine-3",
+    "title": "Cours",
+    "section": "",
+    "text": "Systèmes linéaires"
   },
   {
     "objectID": "archives.html",
