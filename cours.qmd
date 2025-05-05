@@ -14,11 +14,11 @@
 
 - [Systèmes linéaires](cours/linear.html)
 
-<!-- ## Semaine 4
+## Semaine 4
 
 - [Problèmes aux valeurs propres](cours/eigen.html)
 
-## Semaine 5
+<!-- ## Semaine 5
 
 - [Équations non linéaires](cours/nonlinear.html)
 

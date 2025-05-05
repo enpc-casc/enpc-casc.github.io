@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires"
+    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -68,6 +68,13 @@
     "title": "Cours",
     "section": "",
     "text": "Systèmes linéaires"
+  },
+  {
+    "objectID": "cours.html#semaine-4",
+    "href": "cours.html#semaine-4",
+    "title": "Cours",
+    "section": "",
+    "text": "Problèmes aux valeurs propres"
   },
   {
     "objectID": "archives.html",
@@ -109,21 +116,21 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59."
+    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres"
   },
   {
     "objectID": "notebooks.html#semaine-1",
     "href": "notebooks.html#semaine-1",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59."
+    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59."
   },
   {
     "objectID": "notebooks.html#semaine-2",
     "href": "notebooks.html#semaine-2",
     "title": "Notebooks",
     "section": "",
-    "text": "Interpolation, approximation et intégration"
+    "text": "Interpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions"
   },
   {
     "objectID": "notebooks.html#semaine-3",
@@ -131,5 +138,12 @@
     "title": "Notebooks",
     "section": "",
     "text": "Systèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#semaine-4",
+    "href": "notebooks.html#semaine-4",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Problèmes aux valeurs propres"
   }
 ]
