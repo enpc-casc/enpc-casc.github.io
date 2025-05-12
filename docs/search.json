@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres"
+    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -75,6 +75,13 @@
     "title": "Cours",
     "section": "",
     "text": "Problèmes aux valeurs propres"
+  },
+  {
+    "objectID": "cours.html#semaine-5",
+    "href": "cours.html#semaine-5",
+    "title": "Cours",
+    "section": "",
+    "text": "Équations non linéaires"
   },
   {
     "objectID": "archives.html",
@@ -116,7 +123,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres"
+    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 36 mai, 23:59."
   },
   {
     "objectID": "notebooks.html#semaine-1",
@@ -145,5 +152,12 @@
     "title": "Notebooks",
     "section": "",
     "text": "Problèmes aux valeurs propres"
+  },
+  {
+    "objectID": "notebooks.html#semaine-5",
+    "href": "notebooks.html#semaine-5",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Équations non linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 36 mai, 23:59."
   }
 ]

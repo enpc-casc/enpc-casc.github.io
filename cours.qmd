@@ -18,10 +18,10 @@
 
 - [Problèmes aux valeurs propres](cours/eigen.html)
 
-<!-- ## Semaine 5
+## Semaine 5
 
 - [Équations non linéaires](cours/nonlinear.html)
 
-## Semaine 6
+<!-- ## Semaine 6
 
 - [Équations différentielles ordinaires](cours/odes.html) -->
