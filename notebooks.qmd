@@ -28,7 +28,7 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Équations non linéaires](notebooks/nonlinear.ipynb)
 
-Devoir à remettre sur [Educnet](https://tbd) au plus tard le **lundi 36 mai, 23:59**.
+Devoir à remettre sur [Educnet](https://tbd) au plus tard le **lundi 26 mai, 23:59**.
 
 <!-- ## Semaine 6
 
