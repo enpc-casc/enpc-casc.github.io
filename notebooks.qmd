@@ -4,7 +4,7 @@
 
 - [Introduction au langage Julia](notebooks/intro_julia.ipynb)
 
-- [Introduction au langage Julia: solutions](notebooks/solutions_intro_julia.ipynb)
+- [Introduction au langage Julia : solutions](notebooks/solutions_intro_julia.ipynb)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70679) au plus tard le **lundi 14 avril, 23:59**.
 
@@ -12,17 +12,21 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Interpolation, approximation et intégration](notebooks/interpolation.ipynb)
 
-- [Interpolation, approximation et intégration: solutions](notebooks/solutions_interpolation.ipynb)
+- [Interpolation, approximation et intégration : solutions](notebooks/solutions_interpolation.ipynb)
 
 ## Semaine 3
 
 - [Systèmes linéaires](notebooks/linear.ipynb)
+
+- [Systèmes linéaires : solutions](notebooks/solutions_linear.ipynb)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70815) au plus tard le **lundi 12 mai, 23:59**.
 
 ## Semaine 4
 
 - [Problèmes aux valeurs propres](notebooks/eigen.ipynb)
+
+- [Problèmes aux valeurs propres : solutions](notebooks/solutions_eigen.ipynb)
 
 ## Semaine 5
 
@@ -34,6 +38,6 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Équations différentielles ordinaires](notebooks/odes.ipynb)
 
-- [Équations différentielles ordinaires: solutions](notebooks/odes_sol.ipynb)
+- [Équations différentielles ordinaires : solutions](notebooks/odes_sol.ipynb)
 
 Ce notebook n'est pas à remettre. -->
