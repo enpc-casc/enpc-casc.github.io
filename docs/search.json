@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires"
+    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires\n\n\n\n\n\nÉquations différentielles ordinaires"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -82,6 +82,13 @@
     "title": "Cours",
     "section": "",
     "text": "Équations non linéaires"
+  },
+  {
+    "objectID": "cours.html#semaine-6",
+    "href": "cours.html#semaine-6",
+    "title": "Cours",
+    "section": "",
+    "text": "Équations différentielles ordinaires"
   },
   {
     "objectID": "archives.html",
@@ -123,7 +130,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 26 mai, 23:59."
+    "text": "Introduction au langage Julia\nIntroduction au langage Julia: solutions\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration\nInterpolation, approximation et intégration: solutions\n\n\n\n\n\nSystèmes linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 26 mai, 23:59.\n\n\n\n\nÉquations différentielles ordinaires"
   },
   {
     "objectID": "notebooks.html#semaine-1",
@@ -159,5 +166,12 @@
     "title": "Notebooks",
     "section": "",
     "text": "Équations non linéaires\n\nDevoir à remettre sur Educnet au plus tard le lundi 26 mai, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#semaine-6",
+    "href": "notebooks.html#semaine-6",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Équations différentielles ordinaires"
   }
 ]

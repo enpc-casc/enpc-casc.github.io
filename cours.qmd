@@ -22,6 +22,6 @@
 
 - [Équations non linéaires](cours/nonlinear.html)
 
-<!-- ## Semaine 6
+## Semaine 6
 
-- [Équations différentielles ordinaires](cours/odes.html) -->
+- [Équations différentielles ordinaires](cours/odes.html)
