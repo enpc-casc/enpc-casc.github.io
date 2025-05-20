@@ -38,6 +38,4 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 - [Équations différentielles ordinaires](notebooks/odes.ipynb)
 
-<!-- - [Équations différentielles ordinaires: solutions](notebooks/odes_sol.ipynb)
-
-Ce notebook n'est pas à remettre. -->
+- [Équations différentielles ordinaires: solutions](notebooks/solutions_odes_sol.ipynb)
