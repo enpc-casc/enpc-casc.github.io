@@ -2,40 +2,30 @@
 
 ## Semaine 1
 
-- [Introduction au langage Julia](notebooks/intro_julia.ipynb)
-
-- [Introduction au langage Julia : solutions](notebooks/solutions_intro_julia.ipynb)
+- Introduction au langage Julia : [énoncé](notebooks/intro_julia.ipynb), [solution](notebooks/intro_julia_sol.html)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70679) au plus tard le **lundi 14 avril, 23:59**.
 
 ## Semaine 2
 
-- [Interpolation, approximation et intégration](notebooks/interpolation.ipynb)
-
-- [Interpolation, approximation et intégration : solutions](notebooks/solutions_interpolation.ipynb)
+- Interpolation, approximation et intégration : [énoncé](notebooks/interpolation.ipynb), [solution](notebooks/interpolation_sol.html)
 
 ## Semaine 3
 
-- [Systèmes linéaires](notebooks/linear.ipynb)
-
-- [Systèmes linéaires : solutions](notebooks/solutions_linear.ipynb)
+- Systèmes linéaires : [énoncé](notebooks/linear.ipynb), [solution](notebooks/linear_sol.html)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70815) au plus tard le **lundi 12 mai, 23:59**.
 
 ## Semaine 4
 
-- [Problèmes aux valeurs propres](notebooks/eigen.ipynb)
-
-- [Problèmes aux valeurs propres : solutions](notebooks/solutions_eigen.ipynb)
+- Problèmes aux valeurs propres : [énoncé](notebooks/eigen.ipynb), [solution](notebooks/eigen_sol.html)
 
 ## Semaine 5
 
-- [Équations non linéaires](notebooks/nonlinear.ipynb)
+- Équations non linéaires : [énoncé](notebooks/nonlinear.ipynb)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70929) au plus tard le **lundi 26 mai, 23:59**.
 
 ## Semaine 6
 
-- [Équations différentielles ordinaires](notebooks/odes.ipynb)
-
-- [Équations différentielles ordinaires: solutions](notebooks/solutions_odes.ipynb)
+- Équations différentielles ordinaires : [énoncé](notebooks/odes.ipynb), [solution](notebooks/odes_sol.html)

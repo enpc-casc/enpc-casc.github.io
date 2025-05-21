@@ -1,17 +1,9 @@
 # Archives
 
-- [Examen 2023](notebooks/exam_2023.ipynb)
+- Examen 2023 : [énoncé](notebooks/exam_2023.ipynb), [solution](notebooks/exam_2023_sol.html)
 
-- [Examen 2023 : solutions](notebooks/exam_2023_sol.ipynb) [HTML](notebooks/exam_2023_sol.html)
+- Rattrapage 2023 : [énoncé](notebooks/resit_2023.ipynb), [solution](notebooks/resit_2023_sol.html)
 
-- [Rattrapage 2023](notebooks/resit_2023.ipynb)
+- Examen 2024 : [énoncé](notebooks/exam_2024.ipynb), [solution](notebooks/exam_2024_sol.html)
 
-- [Rattrapage 2023 : solutions](notebooks/resit_2023_sol.ipynb) [HTML](notebooks/resit_2023_sol.html)
-
-- [Examen 2024](notebooks/exam_2024.ipynb)
-
-- [Examen 2024 : solutions](notebooks/exam_2024_sol.ipynb) [HTML](notebooks/exam_2024_sol.html)
-
-- [Rattrapage 2024](notebooks/resit_2024.ipynb)
-
-- [Rattrapage 2024 : solutions](notebooks/resit_2024_sol.ipynb) [HTML](notebooks/resit_2024_sol.html)
+- Rattrapage 2024 : [énoncé](notebooks/resit_2024.ipynb), [solution](notebooks/resit_2024_sol.html)
