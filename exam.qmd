@@ -1,8 +1,10 @@
 # Examen
 
-<!-- **Consignes** :
+[énoncé](notebooks/exam.ipynb)
 
-- Seules les soumissions via [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=66064) seront acceptées.
+**Consignes** :
+
+- Seules les soumissions via [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70941) seront acceptées.
 
 - Cet examen est à cours ouvert. L'accès à tous les documents du cours, y compris les notebook, est permis.
   L'utilisation du Web est permise, à l'exception de ChatGPT et des services similaires,
@@ -13,4 +15,4 @@
 
 - Toutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.
 
-- L'**heure limite** de remise est à 16h15. -->
+- L'**heure limite** de remise est à 16h15.

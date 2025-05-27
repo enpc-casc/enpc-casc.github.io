@@ -22,7 +22,7 @@ Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=
 
 ## Semaine 5
 
-- Équations non linéaires : [énoncé](notebooks/nonlinear.ipynb)
+- Équations non linéaires : [énoncé](notebooks/nonlinear.ipynb), [solution](notebooks/solutions_nonlinear.ipynb)
 
 Devoir à remettre sur [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=70929) au plus tard le **lundi 26 mai, 23:59**.
 
