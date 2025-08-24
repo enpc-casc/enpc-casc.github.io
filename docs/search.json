@@ -37,9 +37,9 @@
   {
     "objectID": "exam.html",
     "href": "exam.html",
-    "title": "Examen",
+    "title": "Examen de rattrapage",
     "section": "",
-    "text": "Examen\nénoncé\nConsignes :\n\nSeules les soumissions via Educnet seront acceptées.\nCet examen est à cours ouvert. L’accès à tous les documents du cours, y compris les notebook, est permis. L’utilisation du Web est permise, à l’exception de ChatGPT et des services similaires, dont l’utilisation n’est pas permise.\nL’échange d’informations entres élèves par quelque moyen que ce soit (par exemple par email, ou par des sites Web du type Stack Overflow) n’est pas permis pendant l’examen. Le non-respect de cette consigne se soldera par une note de 0/20 pour l’ensemble du module, sans possibilité de rattrapage.\nToutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.\nL’heure limite de remise est à 16h15."
+    "text": "Examen de rattrapage\nénoncé\nConsignes :\n\nSeules les soumissions via Educnet seront acceptées.\nCet examen est à cours ouvert. L’accès à tous les documents du cours, y compris les notebooks, est permis.\nL’utilisation du Web est permise. Par contre, l’usage d’intelligences artificielles comme ChatGPT ou Copilot est interdit, que ce soit via le Web ou un serveur local.\nL’échange d’informations entre élèves n’est pas permis pendant l’examen, quel que soit de moyen (par exemple par email, ou par des sites Web du type Stack Overflow). Le non-respect de cette consigne se soldera par une note de 0/20 pour l’ensemble du module, sans possibilité de rattrapage.\nToutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.\nL’heure limite de remise est à 11h30."
   },
   {
     "objectID": "cours.html",
