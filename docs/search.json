@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation et approximation\nIntégration\n\n\n\n\n\nSystèmes linéaires\n\n\n\n\n\nProblèmes aux valeurs propres\n\n\n\n\n\nÉquations non linéaires\n\n\n\n\n\nÉquations différentielles ordinaires"
+    "text": "Introduction au langage Julia"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -54,41 +54,6 @@
     "title": "Cours",
     "section": "",
     "text": "Introduction au langage Julia"
-  },
-  {
-    "objectID": "cours.html#semaine-2",
-    "href": "cours.html#semaine-2",
-    "title": "Cours",
-    "section": "",
-    "text": "Interpolation et approximation\nIntégration"
-  },
-  {
-    "objectID": "cours.html#semaine-3",
-    "href": "cours.html#semaine-3",
-    "title": "Cours",
-    "section": "",
-    "text": "Systèmes linéaires"
-  },
-  {
-    "objectID": "cours.html#semaine-4",
-    "href": "cours.html#semaine-4",
-    "title": "Cours",
-    "section": "",
-    "text": "Problèmes aux valeurs propres"
-  },
-  {
-    "objectID": "cours.html#semaine-5",
-    "href": "cours.html#semaine-5",
-    "title": "Cours",
-    "section": "",
-    "text": "Équations non linéaires"
-  },
-  {
-    "objectID": "cours.html#semaine-6",
-    "href": "cours.html#semaine-6",
-    "title": "Cours",
-    "section": "",
-    "text": "Équations différentielles ordinaires"
   },
   {
     "objectID": "archives.html",
@@ -102,7 +67,7 @@
     "href": "credits.html",
     "title": "Crédits",
     "section": "",
-    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez https://quarto.org/docs/websites."
+    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2025 : Louis Carillo (louis.carillo@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html",
@@ -123,55 +88,20 @@
     "href": "index.html#équipe-enseignante",
     "title": "Pratique du calcul scientifique",
     "section": "Équipe enseignante",
-    "text": "Équipe enseignante\n\nGroupe 1, salle F102: Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\nGroupe 2, salle F103: Louis Carillo (louis.carillo@enpc.fr)\nGroupe 3, salle F108: Urbain Vaes (urbain.vaes@inria.fr)\n\nSi vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours."
+    "text": "Équipe enseignante\n\nGroupe 1, salle tbd: Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\nGroupe 2, salle tbd: Urbain Vaes (urbain.vaes@inria.fr)\n\nSi vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours."
   },
   {
     "objectID": "notebooks.html",
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59.\n\n\n\n\nInterpolation, approximation et intégration : énoncé, solution\n\n\n\n\n\nSystèmes linéaires : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59.\n\n\n\n\nProblèmes aux valeurs propres : énoncé, solution\n\n\n\n\n\nÉquations non linéaires : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 26 mai, 23:59.\n\n\n\n\nÉquations différentielles ordinaires : énoncé, solution"
+    "text": "To download a notebook, right-click on the link and select “Save link as…”.\n\n\n\nIntroduction au langage Julia : énoncé"
   },
   {
     "objectID": "notebooks.html#semaine-1",
     "href": "notebooks.html#semaine-1",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction au langage Julia : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 14 avril, 23:59."
-  },
-  {
-    "objectID": "notebooks.html#semaine-2",
-    "href": "notebooks.html#semaine-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation, approximation et intégration : énoncé, solution"
-  },
-  {
-    "objectID": "notebooks.html#semaine-3",
-    "href": "notebooks.html#semaine-3",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Systèmes linéaires : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 12 mai, 23:59."
-  },
-  {
-    "objectID": "notebooks.html#semaine-4",
-    "href": "notebooks.html#semaine-4",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Problèmes aux valeurs propres : énoncé, solution"
-  },
-  {
-    "objectID": "notebooks.html#semaine-5",
-    "href": "notebooks.html#semaine-5",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Équations non linéaires : énoncé, solution\n\nDevoir à remettre sur Educnet au plus tard le lundi 26 mai, 23:59."
-  },
-  {
-    "objectID": "notebooks.html#semaine-6",
-    "href": "notebooks.html#semaine-6",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Équations différentielles ordinaires : énoncé, solution"
+    "text": "Introduction au langage Julia : énoncé"
   }
 ]
