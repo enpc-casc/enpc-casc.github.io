@@ -5,3 +5,6 @@
 wikidata.tar
 wikidata
 **/*.quarto_ipynb
+
+CLAUDE.md
+.claude
