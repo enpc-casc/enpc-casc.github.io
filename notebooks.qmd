@@ -5,3 +5,5 @@ To download a notebook, right-click on the link and select "Save link as...".
 ## Semaine 1
 
 - Introduction au langage Julia : [énoncé](notebooks/intro_julia.ipynb)
+
+[Lien Educnet pour la soumission](https://educnet.enpc.fr/mod/assign/view.php?id=75232)
