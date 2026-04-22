@@ -3,3 +3,9 @@
 ## Semaine 1
 
 - [Introduction au langage Julia](cours/julia.html)
+
+## Semaine 2
+
+- [Interpolation](cours/interpolation.html)
+
+- [Intégration](cours/integration.html)
