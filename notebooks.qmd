@@ -8,4 +8,4 @@ To download a notebook, right-click on the link and select "Save link as...".
 
 ## Semaine 2
 
-- Interpolation et intégration : [énoncé](notebooks/interpolation.ipynb)
+- Interpolation et intégration : [énoncé](notebooks/interpolation.ipynb), [Lien Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420)
