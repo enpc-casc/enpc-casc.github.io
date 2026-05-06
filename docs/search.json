@@ -46,7 +46,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation\nIntégration"
+    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation\nIntégration\n\n\n\n\n\nSystèmes linéaires Version EN"
   },
   {
     "objectID": "cours.html#semaine-1",
@@ -61,6 +61,13 @@
     "title": "Cours",
     "section": "",
     "text": "Interpolation\nIntégration"
+  },
+  {
+    "objectID": "cours.html#semaine-3",
+    "href": "cours.html#semaine-3",
+    "title": "Cours",
+    "section": "",
+    "text": "Systèmes linéaires Version EN"
   },
   {
     "objectID": "archives.html",
@@ -102,7 +109,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Pour télécharger un notebook, cliquez-droit et sélectionnez “Enregistrez le lien sous…”.\n\n\n\nIntroduction au langage Julia : énoncé, Lien Educnet\n\n\n\n\n\nInterpolation et intégration : énoncé, Lien Educnet"
+    "text": "Pour télécharger un notebook, cliquez-droit et sélectionnez “Enregistrez le lien sous…”.\n\n\n\nIntroduction au langage Julia : énoncé, Lien Educnet\n\n\n\n\n\nInterpolation et intégration : énoncé, Lien Educnet\n\n\n\n\n\nSystèmes linéaires : énoncé"
   },
   {
     "objectID": "notebooks.html#semaine-1",
@@ -117,5 +124,12 @@
     "title": "Notebooks",
     "section": "",
     "text": "Interpolation et intégration : énoncé, Lien Educnet"
+  },
+  {
+    "objectID": "notebooks.html#semaine-3",
+    "href": "notebooks.html#semaine-3",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Systèmes linéaires : énoncé"
   }
 ]

@@ -9,3 +9,7 @@ Pour télécharger un notebook, cliquez-droit et sélectionnez "Enregistrez le l
 ## Semaine 2
 
 - Interpolation et intégration : [énoncé](notebooks/interpolation.ipynb), [Lien Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420)
+
+## Semaine 3
+
+- Systèmes linéaires : [énoncé](notebooks/linear.ipynb)
