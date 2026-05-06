@@ -1,6 +1,6 @@
 # Notebooks
 
-To download a notebook, right-click on the link and select "Save link as...".
+Pour télécharger un notebook, cliquez-droit et sélectionnez "Enregistrez le lien sous...".
 
 ## Semaine 1
 
