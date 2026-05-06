@@ -5,20 +5,14 @@ on:
     paths:
       - 'docs/**'
 
-permissions:
-  contents: write
-
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: codeberg-tiny
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v5
 
-      - name: Deploy to pages branch
-        run: |
-          git config user.name "forgejo-actions"
-          git config user.email "actions@codeberg.org"
-          git remote set-url origin https://oauth2:${{ secrets.GITHUB_TOKEN }}@codeberg.org/enpc-casc/pages.git
-          git subtree push --prefix docs origin pages
+      - uses: actions/git-pages@v2
+        with:
+          site: https://enpc-casc.codeberg.page/
+          token: ${{ forge.token }}
+          source: docs/
