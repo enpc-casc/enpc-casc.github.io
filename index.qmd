@@ -1,32 +1,106 @@
 ---
 title: "Pratique du calcul scientifique"
-subtitle: "École nationale des ponts et chaussées"
+page-layout: full
+toc: false
 ---
 
-## Installations préalables
+::: {.casc-hero}
+::: {.casc-hero-content}
+# Pratique du calcul scientifique
 
-### `Jupyter`
+::: {.casc-hero-subtitle}
+Cours pratique à l'**École nationale des ponts et chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
+:::
 
-Deux possibilités :
+::: {.casc-hero-meta}
+[<i class="bi bi-mortarboard-fill"></i> ENPC]{.casc-chip}
+[<i class="bi bi-code-slash"></i> Julia]{.casc-chip}
+[<i class="bi bi-book-half"></i> Polycopié]{.casc-chip}
+[<i class="bi bi-clipboard-data"></i> Notebooks Jupyter]{.casc-chip}
+:::
 
-- installer [`Anaconda`](https://www.anaconda.com/download) comprenant Python et ses bibliothèques principales mais aussi `Jupyter`,
+::: {.casc-hero-buttons}
+[<i class="bi bi-easel-fill"></i> Voir les cours](cours.qmd){.casc-btn .casc-btn-primary}
+[<i class="bi bi-code-slash"></i> Notebooks](notebooks.qmd){.casc-btn .casc-btn-ghost}
+[<i class="bi bi-book"></i> Polycopié](poly.qmd){.casc-btn .casc-btn-ghost}
+:::
+:::
+:::
 
-- ou installer [`Jupyter`](https://jupyter.org/install) seul.
+## [Installations préalables]{.casc-section-title}
 
-### `Julia`
+Avant de commencer, installez les outils suivants sur votre machine.
 
-Installer la dernière version depuis [ce lien](https://julialang.org/downloads).
+::: {.grid}
 
-### `VSCode`
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[<i class="bi bi-box-seam"></i>]{.casc-card-icon}
 
-- `VSCode` peut être installé depuis [ce lien](https://code.visualstudio.com/).
+### Jupyter
 
-- L'extension `Julia` pour `VSCode` est disponible [ici](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) ou directement dans `VSCode` (icône ![](logo_ext_vscode.png)).
+Deux options pour installer Jupyter :
 
-## Équipe enseignante
+- [Anaconda](https://www.anaconda.com/download) — distribution Python complète intégrant Jupyter
+- [Jupyter](https://jupyter.org/install) seul
 
-- Groupe 1, salle tbd: [Jean-François Barthélémy](https://jfbarthelemy.github.io/) (jean-francois.barthelemy@cerema.fr)
+:::
+:::
 
-- Groupe 2, salle tbd: [Urbain Vaes](https://urbain.vaes.uk/) (urbain.vaes@inria.fr)
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[<i class="bi bi-rocket-takeoff-fill"></i>]{.casc-card-icon}
 
-Si vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours.
+### Julia
+
+Téléchargez la dernière version officielle depuis le [site de Julia](https://julialang.org/downloads). Le langage est rapide, expressif et conçu pour le calcul scientifique.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[<i class="bi bi-laptop"></i>]{.casc-card-icon}
+
+### VSCode
+
+Installez [VSCode](https://code.visualstudio.com/) puis l'[extension Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) (icône ![](logo_ext_vscode.png){height=18px} dans VSCode).
+:::
+:::
+
+:::
+
+## [Équipe enseignante]{.casc-section-title}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-mortarboard-fill"></i>]{.casc-card-icon}
+
+### Groupe 1
+
+[Jean-François Barthélémy](https://jfbarthelemy.github.io/)
+
+[<i class="bi bi-envelope-fill"></i> jean-francois.barthelemy@cerema.fr](mailto:jean-francois.barthelemy@cerema.fr)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-mortarboard-fill"></i>]{.casc-card-icon}
+
+### Groupe 2
+
+[Urbain Vaes](https://urbain.vaes.uk/)
+
+[<i class="bi bi-envelope-fill"></i> urbain.vaes@inria.fr](mailto:urbain.vaes@inria.fr)
+:::
+:::
+
+:::
+
+::: {.casc-info-banner}
+<i class="bi bi-info-circle-fill"></i>
+
+Pour toute question par courriel concernant le cours, merci de contacter **votre chargé de cours**.
+:::

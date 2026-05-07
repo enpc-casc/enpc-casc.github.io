@@ -1,15 +1,54 @@
-# Cours
+---
+title: "Cours"
+subtitle: "Supports de cours, semaine par semaine"
+toc: false
+---
 
-## Semaine 1
+::: {.casc-info-banner}
+<i class="bi bi-info-circle-fill"></i>
 
-- [Introduction au langage Julia](cours/julia.html)
+Les supports de cours sont disponibles en **français** et en **anglais**. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.
+:::
 
-## Semaine 2
+::: {.casc-table-wrapper}
 
-- [Interpolation](cours/interpolation.html)
+```{=html}
+<table class="casc-table">
+  <thead>
+    <tr>
+      <th style="width: 8rem;">Semaine</th>
+      <th>Sujet</th>
+      <th style="width: 9rem;">Français</th>
+      <th style="width: 9rem;">English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 1</span></td>
+      <td class="casc-topic">Introduction au langage Julia</td>
+      <td><a class="casc-lang-btn fr" href="cours/julia_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
+      <td><a class="casc-lang-btn en" href="cours/julia_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 2</span></td>
+      <td class="casc-topic">Interpolation</td>
+      <td><a class="casc-lang-btn fr" href="cours/interpolation_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
+      <td><a class="casc-lang-btn en" href="cours/interpolation_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 2</span></td>
+      <td class="casc-topic">Intégration numérique</td>
+      <td><a class="casc-lang-btn fr" href="cours/integration_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
+      <td><a class="casc-lang-btn en" href="cours/integration_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 3</span></td>
+      <td class="casc-topic">Systèmes linéaires</td>
+      <td><a class="casc-lang-btn fr" href="cours/linear_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
+      <td><a class="casc-lang-btn en" href="cours/linear_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
+    </tr>
+  </tbody>
+</table>
+```
 
-- [Intégration](cours/integration.html)
-
-## Semaine 3
-
-- [Systèmes linéaires](cours/linear.html) [Version EN](cours/linear_en.html)
+:::

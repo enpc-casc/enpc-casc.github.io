@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+$primary: #4c9be3;
+$body-color: #e5e7eb;
+$body-bg: #0f172a;
+
+$link-color: #7bb8f0;
+$link-hover-color: #a8d2f5;
+
+$font-family-sans-serif: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+$headings-font-weight: 700;
+$headings-color: #f1f5f9;
+
+$border-radius: 0.75rem;
+$border-radius-lg: 1rem;
+
+/*-- scss:rules --*/
+
+.navbar {
+  background: linear-gradient(135deg, #0b3d75 0%, #1f5fa8 100%) !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #f1f5f9 !important;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #ffe27a !important;
+}

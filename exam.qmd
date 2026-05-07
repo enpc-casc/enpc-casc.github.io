@@ -1,19 +1,66 @@
-# Examen de rattrapage
+---
+title: "Examen de rattrapage"
+subtitle: "Modalités et consignes"
+toc: false
+---
 
-[énoncé](notebooks/resit.ipynb)
+```{=html}
+<a class="casc-btn casc-btn-primary" href="notebooks/resit.ipynb" download>
+  <i class="bi bi-pencil-square"></i> Énoncé du rattrapage
+</a>
+<a class="casc-btn casc-btn-ghost" href="https://educnet.enpc.fr/mod/assign/view.php?id=66064" target="_blank" rel="noopener">
+  <i class="bi bi-cloud-upload-fill"></i> Soumission Educnet
+</a>
+```
 
-**Consignes** :
+## [Consignes]{.casc-section-title}
 
-- Seules les soumissions via [Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=66064) seront acceptées.
+::: {.grid}
 
-- Cet examen est à cours ouvert. L'accès à tous les documents du cours, y compris les notebooks, est permis.
-  
-- L’utilisation du Web est permise.
-  Par contre, l’usage d’intelligences artificielles comme ChatGPT ou Copilot est interdit, que ce soit via le Web ou un serveur local.
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-cloud-upload-fill"></i>]{.casc-card-icon}
 
-- L'échange d'informations entre élèves n'est **pas permis** pendant l'examen, quel que soit de moyen (par exemple par email, ou par des sites Web du type Stack Overflow).
-  Le non-respect de cette consigne se soldera par une note de 0/20 pour l’ensemble du module, sans possibilité de rattrapage.
+### Soumission
 
-- Toutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.
+Seules les soumissions via [**Educnet**](https://educnet.enpc.fr/mod/assign/view.php?id=66064) seront acceptées.
 
-- L'**heure limite** de remise est à 11h30.
+L'**heure limite** de remise est à **11h30**.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-book-fill"></i>]{.casc-card-icon}
+
+### Documents autorisés
+
+Examen à **cours ouvert** : tous les documents du cours sont permis (notebooks, polycopié, transparents).
+
+L'usage du **Web** est permis.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-robot"></i>]{.casc-card-icon}
+
+### IA interdite
+
+L'usage d'**intelligences artificielles** (ChatGPT, Copilot, etc.) est **interdit**, que ce soit via le Web ou un serveur local.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-person-x-fill"></i>]{.casc-card-icon}
+
+### Pas d'échange
+
+L'**échange entre élèves** n'est pas permis (email, Stack Overflow, etc.). Toute violation entraîne **0/20** sans rattrapage.
+
+Toutes les apps de chat (Facebook, WhatsApp, Discord, …) doivent être **fermées**.
+:::
+:::
+
+:::

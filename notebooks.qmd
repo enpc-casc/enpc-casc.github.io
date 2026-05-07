@@ -1,15 +1,48 @@
-# Notebooks
+---
+title: "Notebooks"
+subtitle: "Énoncés des séances pratiques"
+toc: false
+---
 
-Pour télécharger un notebook, cliquez-droit et sélectionnez "Enregistrez le lien sous...".
+::: {.casc-info-banner}
+<i class="bi bi-info-circle-fill"></i>
 
-## Semaine 1
+Pour télécharger un notebook, **cliquez-droit** sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s'effectuent via [Educnet](https://educnet.enpc.fr/).
+:::
 
-- Introduction au langage Julia : [énoncé](notebooks/intro_julia.ipynb), [Lien Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75232)
+::: {.casc-table-wrapper}
 
-## Semaine 2
+```{=html}
+<table class="casc-table">
+  <thead>
+    <tr>
+      <th style="width: 8rem;">Semaine</th>
+      <th>Sujet</th>
+      <th style="width: 11rem;">Énoncé</th>
+      <th style="width: 11rem;">Soumission</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 1</span></td>
+      <td class="casc-topic">Introduction au langage Julia</td>
+      <td><a class="casc-action-btn primary" href="notebooks/intro_julia.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="https://educnet.enpc.fr/mod/assign/view.php?id=75232" target="_blank" rel="noopener"><i class="bi bi-cloud-upload"></i> Educnet</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 2</span></td>
+      <td class="casc-topic">Interpolation et intégration</td>
+      <td><a class="casc-action-btn primary" href="notebooks/interpolation.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="https://educnet.enpc.fr/mod/assign/view.php?id=75420" target="_blank" rel="noopener"><i class="bi bi-cloud-upload"></i> Educnet</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">Sem. 3</span></td>
+      <td class="casc-topic">Systèmes linéaires</td>
+      <td><a class="casc-action-btn primary" href="notebooks/linear.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><span class="casc-action-btn ghost"><i class="bi bi-hourglass-split"></i> à venir</span></td>
+    </tr>
+  </tbody>
+</table>
+```
 
-- Interpolation et intégration : [énoncé](notebooks/interpolation.ipynb), [Lien Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420)
-
-## Semaine 3
-
-- Systèmes linéaires : [énoncé](notebooks/linear.ipynb)
+:::

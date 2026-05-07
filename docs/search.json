@@ -2,134 +2,120 @@
   {
     "objectID": "poly.html",
     "href": "poly.html",
-    "title": "Polycopié du cours",
+    "title": "Polycopié",
     "section": "",
-    "text": "Polycopié du cours\n\nNotes complètes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+    "text": "Polycopié rédigé par Urbain Vaes. Téléchargez le document complet ou consultez chaque chapitre individuellement.\nNotes complètes (PDF)"
+  },
+  {
+    "objectID": "poly.html#chapitres",
+    "href": "poly.html#chapitres",
+    "title": "Polycopié",
+    "section": "Chapitres",
+    "text": "Chapitres\n\n  \n    \n      0\n      Introduction\n    \n  \n  \n    \n      1\n      Floating point arithmetic\n    \n  \n  \n    \n      2\n      Interpolation and approximation\n    \n  \n  \n    \n      3\n      Numerical integration\n    \n  \n  \n    \n      4\n      Solving linear equations\n    \n  \n  \n    \n      5\n      Solving nonlinear equations\n    \n  \n  \n    \n      6\n      Eigenvalues and eigenvectors\n    \n  \n  \n    \n      7\n      Numerical integration of ODEs\n    \n  \n  \n    \n      8\n      Numerical optimization"
+  },
+  {
+    "objectID": "poly.html#annexes",
+    "href": "poly.html#annexes",
+    "title": "Polycopié",
+    "section": "Annexes",
+    "text": "Annexes\n\n  \n    \n      A\n      Linear algebra\n    \n  \n  \n    \n      B\n      Introduction to Julia\n    \n  \n  \n    \n      C\n      Chebyshev polynomials\n    \n  \n  \n    \n      \n      Bibliography"
   },
   {
     "objectID": "liens.html",
     "href": "liens.html",
     "title": "Liens utiles",
     "section": "",
-    "text": "Documentation générale de Julia\nLearn X in Y minutes\nTutoriels d’introduction (cf. vidéo plus bas)\nMoJuWo\nJulia performance\n\n\n\n\n\nPlots.jl\nPolynomials.jl\nInterpolations.jl\nForwardDiff.jl\nZygote.jl\n\n\n\n\n\nIntro to Julia tutorial et notebooks associés\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\nAutomatic Differentiation in 10 minutes with Julia"
+    "text": "Documentation officielle complète du langage.\n    \n  \n  \n    \n      \n      \n      Cheat-sheet rapide pour Julia.\n    \n  \n  \n    \n      \n      \n      Notebooks d'introduction (cf. vidéo plus bas).\n    \n  \n  \n    \n      \n      \n      Modern Julia Workflows — bonnes pratiques.\n    \n  \n  \n    \n      \n      \n      Optimisation et benchmarking en Julia."
   },
   {
     "objectID": "liens.html#documentation",
     "href": "liens.html#documentation",
     "title": "Liens utiles",
     "section": "",
-    "text": "Documentation générale de Julia\nLearn X in Y minutes\nTutoriels d’introduction (cf. vidéo plus bas)\nMoJuWo\nJulia performance"
+    "text": "Documentation officielle complète du langage.\n    \n  \n  \n    \n      \n      \n      Cheat-sheet rapide pour Julia.\n    \n  \n  \n    \n      \n      \n      Notebooks d'introduction (cf. vidéo plus bas).\n    \n  \n  \n    \n      \n      \n      Modern Julia Workflows — bonnes pratiques.\n    \n  \n  \n    \n      \n      \n      Optimisation et benchmarking en Julia."
   },
   {
     "objectID": "liens.html#bibliothèques",
     "href": "liens.html#bibliothèques",
     "title": "Liens utiles",
-    "section": "",
-    "text": "Plots.jl\nPolynomials.jl\nInterpolations.jl\nForwardDiff.jl\nZygote.jl"
+    "section": "Bibliothèques",
+    "text": "Bibliothèques\n\n  \n    \n      \n      Plots.jl\n      Visualisation polyvalente.\n    \n  \n  \n    \n      \n      Polynomials.jl\n      Manipulation de polynômes.\n    \n  \n  \n    \n      \n      Interpolations.jl\n      Interpolation multidimensionnelle.\n    \n  \n  \n    \n      \n      ForwardDiff.jl\n      Différentiation automatique en mode direct.\n    \n  \n  \n    \n      \n      Zygote.jl\n      Différentiation automatique en mode inverse."
   },
   {
     "objectID": "liens.html#vidéos",
     "href": "liens.html#vidéos",
     "title": "Liens utiles",
-    "section": "",
-    "text": "Intro to Julia tutorial et notebooks associés\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\nAutomatic Differentiation in 10 minutes with Julia"
+    "section": "Vidéos",
+    "text": "Vidéos\n\nIntro to Julia tutorial\n Notebooks associés\n\n\n\nThe Unreasonable Effectiveness of Multiple Dispatch\n\n\n\nAutomatic Differentiation in 10 minutes"
   },
   {
     "objectID": "exam.html",
     "href": "exam.html",
     "title": "Examen de rattrapage",
     "section": "",
-    "text": "Examen de rattrapage\nénoncé\nConsignes :\n\nSeules les soumissions via Educnet seront acceptées.\nCet examen est à cours ouvert. L’accès à tous les documents du cours, y compris les notebooks, est permis.\nL’utilisation du Web est permise. Par contre, l’usage d’intelligences artificielles comme ChatGPT ou Copilot est interdit, que ce soit via le Web ou un serveur local.\nL’échange d’informations entre élèves n’est pas permis pendant l’examen, quel que soit de moyen (par exemple par email, ou par des sites Web du type Stack Overflow). Le non-respect de cette consigne se soldera par une note de 0/20 pour l’ensemble du module, sans possibilité de rattrapage.\nToutes les applications de chat (Facebook, WhatsApp, Discord, et toutes les autres) doivent être fermées et déconnectées.\nL’heure limite de remise est à 11h30."
+    "text": "Énoncé du rattrapage"
+  },
+  {
+    "objectID": "exam.html#consignes",
+    "href": "exam.html#consignes",
+    "title": "Examen de rattrapage",
+    "section": "Consignes",
+    "text": "Consignes\n\n\n\n\n\nSoumission\nSeules les soumissions via Educnet seront acceptées.\nL’heure limite de remise est à 11h30.\n\n\n\n\n\n\n\nDocuments autorisés\nExamen à cours ouvert : tous les documents du cours sont permis (notebooks, polycopié, transparents).\nL’usage du Web est permis.\n\n\n\n\n\n\n\nIA interdite\nL’usage d’intelligences artificielles (ChatGPT, Copilot, etc.) est interdit, que ce soit via le Web ou un serveur local.\n\n\n\n\n\n\n\nPas d’échange\nL’échange entre élèves n’est pas permis (email, Stack Overflow, etc.). Toute violation entraîne 0/20 sans rattrapage.\nToutes les apps de chat (Facebook, WhatsApp, Discord, …) doivent être fermées."
   },
   {
     "objectID": "cours.html",
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Introduction au langage Julia\n\n\n\n\n\nInterpolation\nIntégration\n\n\n\n\n\nSystèmes linéaires Version EN"
-  },
-  {
-    "objectID": "cours.html#semaine-1",
-    "href": "cours.html#semaine-1",
-    "title": "Cours",
-    "section": "",
-    "text": "Introduction au langage Julia"
-  },
-  {
-    "objectID": "cours.html#semaine-2",
-    "href": "cours.html#semaine-2",
-    "title": "Cours",
-    "section": "",
-    "text": "Interpolation\nIntégration"
-  },
-  {
-    "objectID": "cours.html#semaine-3",
-    "href": "cours.html#semaine-3",
-    "title": "Cours",
-    "section": "",
-    "text": "Systèmes linéaires Version EN"
+    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n FR\n EN\n\n\nSem. 2\nInterpolation\n FR\n EN\n\n\nSem. 2\nIntégration numérique\n FR\n EN\n\n\nSem. 3\nSystèmes linéaires\n FR\n EN\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "archives.html",
     "href": "archives.html",
     "title": "Archives",
     "section": "",
-    "text": "Archives\n\nExamen 2023 : énoncé, solution\nRattrapage 2023 : énoncé, solution\nExamen 2024 : énoncé, solution\nRattrapage 2024 : énoncé, solution"
+    "text": "Sujets et corrections des examens des années précédentes. Consultez-les pour vous entraîner.\n\n\n\n\n\nAnnée\nÉpreuve\nÉnoncé\nSolution\n\n\n\n\n2023\nExamen\n Notebook\n HTML\n\n\n2023\nRattrapage\n Notebook\n HTML\n\n\n2024\nExamen\n Notebook\n HTML\n\n\n2024\nRattrapage\n Notebook\n HTML\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "credits.html",
     "href": "credits.html",
     "title": "Crédits",
     "section": "",
-    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :\n\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2025 : Louis Carillo (louis.carillo@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez https://quarto.org/docs/websites."
+    "text": "Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante."
+  },
+  {
+    "objectID": "credits.html#contributeurs",
+    "href": "credits.html#contributeurs",
+    "title": "Crédits",
+    "section": "Contributeurs",
+    "text": "Contributeurs\n\n\n\n\n\nNoé Blassel\n2023, 2024\n Site personnel ·  noe.blassel@enpc.fr\n\n\n\n\n\n\n\nLouis Carillo\n2025\n Site personnel ·  louis.carillo@enpc.fr\n\n\n\n\n\n\n\nShiva Darshan\n2023\n Site personnel ·  shiva.darshan@enpc.fr\n\n\n\n\n\n\n\nRenato Spacek\n2023\n Profil LinkedIn\n\n\n\n\n\n\nCe site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto, consultez la documentation officielle."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "text": "Cours pratique à l’École nationale des ponts et chaussées — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n ENPC  Julia  Polycopié  Notebooks Jupyter\n\n\n Voir les cours  Notebooks  Polycopié"
   },
   {
     "objectID": "index.html#installations-préalables",
     "href": "index.html#installations-préalables",
     "title": "Pratique du calcul scientifique",
-    "section": "",
-    "text": "Deux possibilités :\n\ninstaller Anaconda comprenant Python et ses bibliothèques principales mais aussi Jupyter,\nou installer Jupyter seul.\n\n\n\n\nInstaller la dernière version depuis ce lien.\n\n\n\n\nVSCode peut être installé depuis ce lien.\nL’extension Julia pour VSCode est disponible ici ou directement dans VSCode (icône )."
+    "section": "Installations préalables",
+    "text": "Installations préalables\nAvant de commencer, installez les outils suivants sur votre machine.\n\n\n\n\n\nJupyter\nDeux options pour installer Jupyter :\n\nAnaconda — distribution Python complète intégrant Jupyter\nJupyter seul\n\n\n\n\n\n\n\n\nJulia\nTéléchargez la dernière version officielle depuis le site de Julia. Le langage est rapide, expressif et conçu pour le calcul scientifique.\n\n\n\n\n\n\n\nVSCode\nInstallez VSCode puis l’extension Julia (icône  dans VSCode)."
   },
   {
     "objectID": "index.html#équipe-enseignante",
     "href": "index.html#équipe-enseignante",
     "title": "Pratique du calcul scientifique",
     "section": "Équipe enseignante",
-    "text": "Équipe enseignante\n\nGroupe 1, salle tbd: Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\nGroupe 2, salle tbd: Urbain Vaes (urbain.vaes@inria.fr)\n\nSi vous souhaitez poser une question sur le cours par courriel, merci de contacter votre chargé de cours."
+    "text": "Équipe enseignante\n\n\n\n\n\nGroupe 1\nJean-François Barthélémy\n jean-francois.barthelemy@cerema.fr\n\n\n\n\n\n\n\nGroupe 2\nUrbain Vaes\n urbain.vaes@inria.fr\n\n\n\n\n\n\nPour toute question par courriel concernant le cours, merci de contacter votre chargé de cours."
   },
   {
     "objectID": "notebooks.html",
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Pour télécharger un notebook, cliquez-droit et sélectionnez “Enregistrez le lien sous…”.\n\n\n\nIntroduction au langage Julia : énoncé, Lien Educnet\n\n\n\n\n\nInterpolation et intégration : énoncé, Lien Educnet\n\n\n\n\n\nSystèmes linéaires : énoncé"
-  },
-  {
-    "objectID": "notebooks.html#semaine-1",
-    "href": "notebooks.html#semaine-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction au langage Julia : énoncé, Lien Educnet"
-  },
-  {
-    "objectID": "notebooks.html#semaine-2",
-    "href": "notebooks.html#semaine-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation et intégration : énoncé, Lien Educnet"
-  },
-  {
-    "objectID": "notebooks.html#semaine-3",
-    "href": "notebooks.html#semaine-3",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Systèmes linéaires : énoncé"
+    "text": "Pour télécharger un notebook, cliquez-droit sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s’effectuent via Educnet.\n\n\n\n\n\nSemaine\nSujet\nÉnoncé\nSoumission\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n Notebook\n Educnet\n\n\nSem. 2\nInterpolation et intégration\n Notebook\n Educnet\n\n\nSem. 3\nSystèmes linéaires\n Notebook\n à venir\n\n\n\n\n\n\n\n Back to top"
   }
 ]

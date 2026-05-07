@@ -1,0 +1,59 @@
+/*-- scss:defaults --*/
+
+// ENPC-inspired modern academic palette
+$primary: #1f5fa8;        // deep academic blue
+$secondary: #6c757d;
+$success: #2a9d8f;        // teal
+$info: #4cc9f0;
+$warning: #f4a261;
+$danger: #e63946;
+
+$body-color: #1f2937;
+$body-bg: #ffffff;
+
+$link-color: #1f5fa8;
+$link-hover-color: #14457e;
+
+$font-family-sans-serif: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+$headings-font-weight: 700;
+$headings-color: #0f172a;
+
+$navbar-bg: #1f5fa8;
+$navbar-fg: #ffffff;
+
+$border-radius: 0.75rem;
+$border-radius-lg: 1rem;
+$border-radius-sm: 0.5rem;
+
+$card-border-color: rgba(0,0,0,0.06);
+$card-cap-bg: rgba(31, 95, 168, 0.04);
+
+/*-- scss:rules --*/
+
+.navbar {
+  background: linear-gradient(135deg, #1f5fa8 0%, #2980d4 100%) !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-text {
+  color: #ffffff !important;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #ffe27a !important;
+}
+
+.navbar-tools .quarto-navigation-tool {
+  color: #ffffff !important;
+}
+
+.navbar input.aa-Input {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.25);
+}
+.navbar input.aa-Input::placeholder { color: rgba(255,255,255,0.7); }

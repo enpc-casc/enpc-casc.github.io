@@ -8,25 +8,59 @@ project:
     - "*.ipynb"
 
 website:
-  title: "Pratique du calcul scientifique"
+  title: "Calcul scientifique"
+  description: "Cours de pratique du calcul scientifique — ENPC"
   favicon: "logo_calcul_scientifique.png"
+  site-url: "https://enpc-casc.github.io/"
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: true
   navbar:
+    background: primary
+    pinned: true
+    collapse-below: lg
     logo: "logo_calcul_scientifique.png"
+    logo-alt: "Logo Calcul Scientifique"
+    title: "Calcul scientifique"
     left:
+      - href: index.qmd
+        text: Accueil
+        icon: house
       - href: poly.qmd
         text: Polycopié
+        icon: book
       - href: cours.qmd
         text: Cours
+        icon: easel
       - href: notebooks.qmd
         text: Notebooks
+        icon: code-slash
       - href: exam.qmd
         text: Examen
+        icon: pencil-square
       - href: archives.qmd
         text: Archives
+        icon: archive
       - href: liens.qmd
         text: Liens utiles
+        icon: link-45deg
       - href: credits.qmd
         text: Crédits
+        icon: people
+    tools:
+      - icon: github
+        href: https://github.com/enpc-casc
+        text: "Dépôt GitHub"
+  page-footer:
+    background: light
+    left: |
+      Pratique du calcul scientifique — [ENPC](https://www.enpc.fr/)
+    center: |
+      Site construit avec [Quarto](https://quarto.org/)
+    right: |
+      © 2025 — Équipe enseignante CASC
 
 editor:
     render-on-save: true
@@ -34,7 +68,20 @@ editor:
 format:
   html:
     theme:
-      light: default
-      dark: darkly
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
     css: styles.css
     toc: true
+    toc-depth: 3
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    link-external-icon: true
+    fig-cap-location: bottom
+    grid:
+      sidebar-width: 250px
+      body-width: 950px
+      margin-width: 250px

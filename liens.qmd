@@ -1,39 +1,105 @@
-# Liens utiles
+---
+title: "Liens utiles"
+subtitle: "Documentation, bibliothèques et tutoriels Julia"
+toc: true
+---
 
-## Documentation
+## [Documentation]{.casc-section-title}
 
-- [Documentation générale de `Julia`](https://docs.julialang.org/en/v1/)
+```{=html}
+<div class="grid">
+  <div class="g-col-12 g-col-md-6">
+    <a class="casc-card" href="https://docs.julialang.org/en/v1/" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-book-fill"></i></span>
+      <h3>Documentation Julia</h3>
+      <p>Documentation officielle complète du langage.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-6">
+    <a class="casc-card" href="https://learnxinyminutes.com/docs/julia" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-stopwatch-fill"></i></span>
+      <h3>Learn X in Y minutes</h3>
+      <p>Cheat-sheet rapide pour Julia.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-6">
+    <a class="casc-card" href="https://github.com/xorJane/Introduction_to_Julia_tutorials" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-mortarboard-fill"></i></span>
+      <h3>Tutoriels d'introduction</h3>
+      <p>Notebooks d'introduction (cf. vidéo plus bas).</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-6">
+    <a class="casc-card" href="https://modernjuliaworkflows.org/" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-diagram-3-fill"></i></span>
+      <h3>MoJuWo</h3>
+      <p>Modern Julia Workflows — bonnes pratiques.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-6">
+    <a class="casc-card" href="https://gdalle.github.io/JuliaPerf-CERMICS/" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-speedometer2"></i></span>
+      <h3>Julia performance</h3>
+      <p>Optimisation et benchmarking en Julia.</p>
+    </a>
+  </div>
+</div>
+```
 
-- [Learn X in Y minutes](https://learnxinyminutes.com/docs/julia)
+## [Bibliothèques]{.casc-section-title}
 
-- [Tutoriels d'introduction](https://github.com/xorJane/Introduction_to_Julia_tutorials) (cf. vidéo plus bas)
+```{=html}
+<div class="grid">
+  <div class="g-col-12 g-col-md-4">
+    <a class="casc-card" href="https://github.com/JuliaPlots/Plots.jl" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-graph-up"></i></span>
+      <h3>Plots.jl</h3>
+      <p>Visualisation polyvalente.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-4">
+    <a class="casc-card" href="https://github.com/JuliaMath/Polynomials.jl" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-calculator-fill"></i></span>
+      <h3>Polynomials.jl</h3>
+      <p>Manipulation de polynômes.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-4">
+    <a class="casc-card" href="https://github.com/JuliaMath/Interpolations.jl" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-soundwave"></i></span>
+      <h3>Interpolations.jl</h3>
+      <p>Interpolation multidimensionnelle.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-4">
+    <a class="casc-card" href="https://github.com/JuliaDiff/ForwardDiff.jl" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-graph-up-arrow"></i></span>
+      <h3>ForwardDiff.jl</h3>
+      <p>Différentiation automatique en mode direct.</p>
+    </a>
+  </div>
+  <div class="g-col-12 g-col-md-4">
+    <a class="casc-card" href="https://github.com/FluxML/Zygote.jl" target="_blank" rel="noopener">
+      <span class="casc-card-icon"><i class="bi bi-graph-down-arrow"></i></span>
+      <h3>Zygote.jl</h3>
+      <p>Différentiation automatique en mode inverse.</p>
+    </a>
+  </div>
+</div>
+```
 
-- [MoJuWo](https://modernjuliaworkflows.org/)
+## [Vidéos]{.casc-section-title}
 
-- [Julia performance](https://gdalle.github.io/JuliaPerf-CERMICS/)
+### Intro to Julia tutorial
 
-## Bibliothèques
+[<i class="bi bi-code-slash"></i> Notebooks associés](https://github.com/xorJane/Introduction_to_Julia_tutorials){.casc-action-btn .ghost target="_blank" rel="noopener"}
 
-- [`Plots.jl`](https://github.com/JuliaPlots/Plots.jl)
+{{< video https://www.youtube.com/embed/8h8rQyEpiZA >}}
 
-- [`Polynomials.jl`](https://github.com/JuliaMath/Polynomials.jl)
+### The Unreasonable Effectiveness of Multiple Dispatch
 
-- [`Interpolations.jl`](https://github.com/JuliaMath/Interpolations.jl)
+{{< video https://www.youtube.com/embed/kc9HwsxE1OY >}}
 
-- [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl)
+### Automatic Differentiation in 10 minutes
 
-- [`Zygote.jl`](https://github.com/FluxML/Zygote.jl)
-
-## Vidéos
-
-- [Intro to Julia tutorial](https://youtu.be/8h8rQyEpiZA) et [notebooks associés](https://github.com/xorJane/Introduction_to_Julia_tutorials)
-
-  {{< video https://youtu.be/8h8rQyEpiZA >}}
-
-- [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY)
-
-  {{< video https://www.youtube.com/watch?v=kc9HwsxE1OY >}}
-
-- [Automatic Differentiation in 10 minutes with Julia](https://www.youtube.com/watch?v=vAp6nUMrKYg)
-
-  {{< video https://www.youtube.com/watch?v=vAp6nUMrKYg >}}
+{{< video https://www.youtube.com/embed/vAp6nUMrKYg >}}

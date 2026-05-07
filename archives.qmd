@@ -1,9 +1,54 @@
-# Archives
+---
+title: "Archives"
+subtitle: "Sujets d'examens et rattrapages des années précédentes"
+toc: false
+---
 
-- Examen 2023 : [énoncé](notebooks/exam_2023.ipynb), [solution](notebooks/exam_2023_sol.html)
+::: {.casc-info-banner}
+<i class="bi bi-archive-fill"></i>
 
-- Rattrapage 2023 : [énoncé](notebooks/resit_2023.ipynb), [solution](notebooks/resit_2023_sol.html)
+Sujets et corrections des examens des années précédentes. Consultez-les pour vous entraîner.
+:::
 
-- Examen 2024 : [énoncé](notebooks/exam_2024.ipynb), [solution](notebooks/exam_2024_sol.html)
+::: {.casc-table-wrapper}
 
-- Rattrapage 2024 : [énoncé](notebooks/resit_2024.ipynb), [solution](notebooks/resit_2024_sol.html)
+```{=html}
+<table class="casc-table">
+  <thead>
+    <tr>
+      <th style="width: 9rem;">Année</th>
+      <th>Épreuve</th>
+      <th style="width: 11rem;">Énoncé</th>
+      <th style="width: 11rem;">Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="casc-week-badge">2023</span></td>
+      <td class="casc-topic">Examen</td>
+      <td><a class="casc-action-btn primary" href="notebooks/exam_2023.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="notebooks/exam_2023_sol.html" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">2023</span></td>
+      <td class="casc-topic">Rattrapage</td>
+      <td><a class="casc-action-btn primary" href="notebooks/resit_2023.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="notebooks/resit_2023_sol.html" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">2024</span></td>
+      <td class="casc-topic">Examen</td>
+      <td><a class="casc-action-btn primary" href="notebooks/exam_2024.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="notebooks/exam_2024_sol.html" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
+    </tr>
+    <tr>
+      <td><span class="casc-week-badge">2024</span></td>
+      <td class="casc-topic">Rattrapage</td>
+      <td><a class="casc-action-btn primary" href="notebooks/resit_2024.ipynb" download><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+      <td><a class="casc-action-btn accent" href="notebooks/resit_2024_sol.html" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+:::

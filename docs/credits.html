@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Crédits – Pratique du calcul scientifique</title>
+<title>Crédits – Calcul scientifique</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -45,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4f3120b602045e949451a32cf630fd92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ff3bad775bea1b954f286f762b431611.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4f3120b602045e949451a32cf630fd92.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-765693310cadda3b93068fb3009010cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5fa0016b4dc780e3b8cffd9b48c4606c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-765693310cadda3b93068fb3009010cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -75,12 +73,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -250,11 +249,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo_calcul_scientifique.png" alt="" class="navbar-logo light-content">
-    <img src="./logo_calcul_scientifique.png" alt="" class="navbar-logo dark-content">
+    <img src="./logo_calcul_scientifique.png" alt="Logo Calcul Scientifique" class="navbar-logo light-content">
+    <img src="./logo_calcul_scientifique.png" alt="Logo Calcul Scientifique" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Pratique du calcul scientifique</span>
+    <span class="navbar-title">Calcul scientifique</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -264,36 +263,49 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./poly.html"> 
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./poly.html"> <i class="bi bi-book" role="img">
+</i> 
 <span class="menu-text">Polycopié</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cours.html"> 
+    <a class="nav-link" href="./cours.html"> <i class="bi bi-easel" role="img">
+</i> 
 <span class="menu-text">Cours</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notebooks.html"> 
+    <a class="nav-link" href="./notebooks.html"> <i class="bi bi-code-slash" role="img">
+</i> 
 <span class="menu-text">Notebooks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./exam.html"> 
+    <a class="nav-link" href="./exam.html"> <i class="bi bi-pencil-square" role="img">
+</i> 
 <span class="menu-text">Examen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./archives.html"> 
+    <a class="nav-link" href="./archives.html"> <i class="bi bi-archive" role="img">
+</i> 
 <span class="menu-text">Archives</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./liens.html"> 
+    <a class="nav-link" href="./liens.html"> <i class="bi bi-link-45deg" role="img">
+</i> 
 <span class="menu-text">Liens utiles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./credits.html" aria-current="page"> 
+    <a class="nav-link active" href="./credits.html" aria-current="page"> <i class="bi bi-people" role="img">
+</i> 
 <span class="menu-text">Crédits</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -303,9 +315,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -313,6 +323,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Crédits</h1>
+<p class="subtitle lead">Anciens membres de l’équipe enseignante</p>
 </div>
 
 
@@ -329,18 +340,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante :</p>
-<ul>
-<li><p>2023, 2024 : <a href="https://noeblassel.github.io/">Noé Blassel</a> (noe.blassel@enpc.fr)</p></li>
-<li><p>2025 : <a href="https://louiscarillo.github.io/">Louis Carillo</a> (louis.carillo@enpc.fr)</p></li>
-<li><p>2023 : <a href="https://shiva-darshan.github.io/">Shiva Darshan</a> (shiva.darshan@enpc.fr)</p></li>
-<li><p>2023 : <a href="https://fr.linkedin.com/in/renatospacek">Renato Spacek</a></p></li>
-</ul>
-<p>Ce site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<div class="casc-info-banner">
+<p><i class="bi bi-heart-fill"></i></p>
+<p>Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d’anciens membres de l’équipe enseignante.</p>
+</div>
+<section id="contributeurs" class="level2">
+<h2 class="anchored" data-anchor-id="contributeurs"><span class="casc-section-title">Contributeurs</span></h2>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-person-badge-fill"></i></span></p>
+<section id="noé-blassel" class="level3">
+<h3 class="anchored" data-anchor-id="noé-blassel">Noé Blassel</h3>
+<p><em>2023, 2024</em></p>
+<p><a href="https://noeblassel.github.io/"><i class="bi bi-link-45deg"></i> Site personnel</a> · <a href="mailto:noe.blassel@enpc.fr"><i class="bi bi-envelope-fill"></i> noe.blassel@enpc.fr</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-person-badge-fill"></i></span></p>
+<section id="louis-carillo" class="level3">
+<h3 class="anchored" data-anchor-id="louis-carillo">Louis Carillo</h3>
+<p><em>2025</em></p>
+<p><a href="https://louiscarillo.github.io/"><i class="bi bi-link-45deg"></i> Site personnel</a> · <a href="mailto:louis.carillo@enpc.fr"><i class="bi bi-envelope-fill"></i> louis.carillo@enpc.fr</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-person-badge-fill"></i></span></p>
+<section id="shiva-darshan" class="level3">
+<h3 class="anchored" data-anchor-id="shiva-darshan">Shiva Darshan</h3>
+<p><em>2023</em></p>
+<p><a href="https://shiva-darshan.github.io/"><i class="bi bi-link-45deg"></i> Site personnel</a> · <a href="mailto:shiva.darshan@enpc.fr"><i class="bi bi-envelope-fill"></i> shiva.darshan@enpc.fr</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-person-badge-fill"></i></span></p>
+<section id="renato-spacek" class="level3">
+<h3 class="anchored" data-anchor-id="renato-spacek">Renato Spacek</h3>
+<p><em>2023</em></p>
+<p><a href="https://fr.linkedin.com/in/renatospacek"><i class="bi bi-linkedin"></i> Profil LinkedIn</a></p>
+</section>
+</div>
+</div>
+</div>
+<div class="casc-info-banner">
+<p><i class="bi bi-code-slash"></i></p>
+<p>Ce site a été créé avec <a href="https://quarto.org/"><strong>Quarto</strong></a>. Pour en savoir plus sur les sites Quarto, consultez la <a href="https://quarto.org/docs/websites">documentation officielle</a>.</p>
+</div>
 
 
+</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -427,7 +483,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/enpc-casc\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -441,6 +497,13 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -755,8 +818,22 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Pratique du calcul scientifique — <a href="https://www.enpc.fr/">ENPC</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p>Site construit avec <a href="https://quarto.org/">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>© 2025 — Équipe enseignante CASC</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,15 +1,71 @@
 ---
 title: "Crédits"
+subtitle: "Anciens membres de l'équipe enseignante"
+toc: false
 ---
 
-Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d'anciens membres de l'équipe enseignante :
+::: {.casc-info-banner}
+<i class="bi bi-heart-fill"></i>
 
-- 2023, 2024 : [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
+Plusieurs parties du cours (transparents, exercices, notebooks) ont été développées par d'anciens membres de l'équipe enseignante.
+:::
 
-- 2025 : [Louis Carillo](https://louiscarillo.github.io/) (louis.carillo@enpc.fr)
+## [Contributeurs]{.casc-section-title}
 
-- 2023 : [Shiva Darshan](https://shiva-darshan.github.io/) (shiva.darshan@enpc.fr)
+::: {.grid}
 
-- 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-person-badge-fill"></i>]{.casc-card-icon}
 
-Ce site a été créé avec Quarto. Pour en savoir plus sur les sites Quarto consultez <https://quarto.org/docs/websites>.
+### Noé Blassel
+
+*2023, 2024*
+
+[<i class="bi bi-link-45deg"></i> Site personnel](https://noeblassel.github.io/) · [<i class="bi bi-envelope-fill"></i> noe.blassel@enpc.fr](mailto:noe.blassel@enpc.fr)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-person-badge-fill"></i>]{.casc-card-icon}
+
+### Louis Carillo
+
+*2025*
+
+[<i class="bi bi-link-45deg"></i> Site personnel](https://louiscarillo.github.io/) · [<i class="bi bi-envelope-fill"></i> louis.carillo@enpc.fr](mailto:louis.carillo@enpc.fr)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-person-badge-fill"></i>]{.casc-card-icon}
+
+### Shiva Darshan
+
+*2023*
+
+[<i class="bi bi-link-45deg"></i> Site personnel](https://shiva-darshan.github.io/) · [<i class="bi bi-envelope-fill"></i> shiva.darshan@enpc.fr](mailto:shiva.darshan@enpc.fr)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[<i class="bi bi-person-badge-fill"></i>]{.casc-card-icon}
+
+### Renato Spacek
+
+*2023*
+
+[<i class="bi bi-linkedin"></i> Profil LinkedIn](https://fr.linkedin.com/in/renatospacek)
+:::
+:::
+
+:::
+
+::: {.casc-info-banner}
+<i class="bi bi-code-slash"></i>
+
+Ce site a été créé avec [**Quarto**](https://quarto.org/). Pour en savoir plus sur les sites Quarto, consultez la [documentation officielle](https://quarto.org/docs/websites).
+:::
