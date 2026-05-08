@@ -78,13 +78,13 @@ code, pre, .sourceCode {
 }
 
 .casc-hero-logo-enpc {
-  width: 100px;
+  width: 200px;
   opacity: 0.88;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.18));
 }
 
 .casc-hero-logo-course {
-  width: 100px;
+  width: 200px;
   opacity: 0.88;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.18));
 }
