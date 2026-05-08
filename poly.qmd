@@ -5,101 +5,36 @@ toc: false
 ---
 
 ::: {.casc-info-banner}
-<i class="bi bi-book-half"></i>
+{{< bi book-half >}}
 
 Polycopié rédigé par **Urbain Vaes**. Téléchargez le document complet ou consultez chaque chapitre individuellement.
 :::
 
-[<i class="bi bi-file-earmark-pdf-fill"></i> Notes complètes (PDF)](https://urbain.vaes.uk/static/teaching/scientific_computing/build/main.pdf){.casc-btn .casc-btn-primary target="_blank" rel="noopener"}
+[{{< bi file-earmark-pdf-fill >}} Notes complètes (PDF)](https://urbain.vaes.uk/static/teaching/scientific_computing/build/main.pdf){.casc-btn .casc-btn-primary target="_blank" rel="noopener"}
 
 ## [Chapitres]{.casc-section-title}
 
-```{=html}
-<div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/introduction.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">0</span>
-      <span class="casc-chapter-title">Introduction</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/roundoff.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">1</span>
-      <span class="casc-chapter-title">Floating point arithmetic</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/interpolation_approximation.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">2</span>
-      <span class="casc-chapter-title">Interpolation and approximation</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/numerical_integration.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">3</span>
-      <span class="casc-chapter-title">Numerical integration</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/linear_equations.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">4</span>
-      <span class="casc-chapter-title">Solving linear equations</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/nonlinear_equations.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">5</span>
-      <span class="casc-chapter-title">Solving nonlinear equations</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/eigenproblems.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">6</span>
-      <span class="casc-chapter-title">Eigenvalues and eigenvectors</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/odes.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">7</span>
-      <span class="casc-chapter-title">Numerical integration of ODEs</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/optimization.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">8</span>
-      <span class="casc-chapter-title">Numerical optimization</span>
-    </a>
-  </div>
-</div>
-```
+::: {.casc-chapters-grid}
+
+- [**0** Introduction](https://urbain.vaes.uk/static/teaching/scientific_computing/build/introduction.pdf){target="_blank"}
+- [**1** Floating point arithmetic](https://urbain.vaes.uk/static/teaching/scientific_computing/build/roundoff.pdf){target="_blank"}
+- [**2** Interpolation and approximation](https://urbain.vaes.uk/static/teaching/scientific_computing/build/interpolation_approximation.pdf){target="_blank"}
+- [**3** Numerical integration](https://urbain.vaes.uk/static/teaching/scientific_computing/build/numerical_integration.pdf){target="_blank"}
+- [**4** Solving linear equations](https://urbain.vaes.uk/static/teaching/scientific_computing/build/linear_equations.pdf){target="_blank"}
+- [**5** Solving nonlinear equations](https://urbain.vaes.uk/static/teaching/scientific_computing/build/nonlinear_equations.pdf){target="_blank"}
+- [**6** Eigenvalues and eigenvectors](https://urbain.vaes.uk/static/teaching/scientific_computing/build/eigenproblems.pdf){target="_blank"}
+- [**7** Numerical integration of ODEs](https://urbain.vaes.uk/static/teaching/scientific_computing/build/odes.pdf){target="_blank"}
+- [**8** Numerical optimization](https://urbain.vaes.uk/static/teaching/scientific_computing/build/optimization.pdf){target="_blank"}
+
+:::
 
 ## [Annexes]{.casc-section-title}
 
-```{=html}
-<div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/matrices.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">A</span>
-      <span class="casc-chapter-title">Linear algebra</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/julia.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">B</span>
-      <span class="casc-chapter-title">Introduction to Julia</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/chebyshev.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">C</span>
-      <span class="casc-chapter-title">Chebyshev polynomials</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/references.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix"><i class="bi bi-book"></i></span>
-      <span class="casc-chapter-title">Bibliography</span>
-    </a>
-  </div>
-</div>
-```
+::: {.casc-chapters-grid .appendix}
+
+- [**A** Linear algebra](https://urbain.vaes.uk/static/teaching/scientific_computing/build/matrices.pdf){target="_blank"}
+- [**B** Introduction to Julia](https://urbain.vaes.uk/static/teaching/scientific_computing/build/julia.pdf){target="_blank"}
+- [**C** Chebyshev polynomials](https://urbain.vaes.uk/static/teaching/scientific_computing/build/chebyshev.pdf){target="_blank"}
+- [**Bib** Bibliography](https://urbain.vaes.uk/static/teaching/scientific_computing/build/references.pdf){target="_blank"}
+
+:::

@@ -5,24 +5,32 @@ toc: false
 ---
 
 ::: {.casc-hero}
+::: {.casc-hero-inner}
 ::: {.casc-hero-content}
 # Pratique du calcul scientifique
 
 ::: {.casc-hero-subtitle}
-Cours pratique à l'**École nationale des ponts et chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
+Cours de l'**École Nationale des Ponts et Chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
 :::
 
 ::: {.casc-hero-meta}
-[<i class="bi bi-mortarboard-fill"></i> ENPC]{.casc-chip}
-[<i class="bi bi-code-slash"></i> Julia]{.casc-chip}
-[<i class="bi bi-book-half"></i> Polycopié]{.casc-chip}
-[<i class="bi bi-clipboard-data"></i> Notebooks Jupyter]{.casc-chip}
+[{{< bi mortarboard-fill >}} ENPC]{.casc-chip}
+[{{< bi code-slash >}} Julia]{.casc-chip}
+[{{< bi book-half >}} Polycopié]{.casc-chip}
+[{{< bi clipboard-data >}} Notebooks Jupyter]{.casc-chip}
 :::
 
 ::: {.casc-hero-buttons}
-[<i class="bi bi-easel-fill"></i> Voir les cours](cours.qmd){.casc-btn .casc-btn-primary}
-[<i class="bi bi-code-slash"></i> Notebooks](notebooks.qmd){.casc-btn .casc-btn-ghost}
-[<i class="bi bi-book"></i> Polycopié](poly.qmd){.casc-btn .casc-btn-ghost}
+[{{< bi easel-fill >}} Voir les cours](cours.qmd){.casc-btn .casc-btn-primary}
+[{{< bi code-slash >}} Notebooks](notebooks.qmd){.casc-btn .casc-btn-ghost}
+[{{< bi book >}} Polycopié](poly.qmd){.casc-btn .casc-btn-ghost}
+:::
+:::
+
+::: {.casc-hero-logos}
+![](logo_enpc_blanc.png){.casc-hero-logo-enpc}
+
+![](logo_calcul_scientifique.png){.casc-hero-logo-course}
 :::
 :::
 :::
@@ -35,7 +43,7 @@ Avant de commencer, installez les outils suivants sur votre machine.
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.casc-card}
-[<i class="bi bi-box-seam"></i>]{.casc-card-icon}
+[{{< bi box-seam >}}]{.casc-card-icon}
 
 ### Jupyter
 
@@ -49,7 +57,7 @@ Deux options pour installer Jupyter :
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.casc-card}
-[<i class="bi bi-rocket-takeoff-fill"></i>]{.casc-card-icon}
+[{{< bi rocket-takeoff-fill >}}]{.casc-card-icon}
 
 ### Julia
 
@@ -59,7 +67,7 @@ Téléchargez la dernière version officielle depuis le [site de Julia](https://
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.casc-card}
-[<i class="bi bi-laptop"></i>]{.casc-card-icon}
+[{{< bi laptop >}}]{.casc-card-icon}
 
 ### VSCode
 
@@ -75,32 +83,32 @@ Installez [VSCode](https://code.visualstudio.com/) puis l'[extension Julia](http
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-mortarboard-fill"></i>]{.casc-card-icon}
+[{{< bi mortarboard-fill >}}]{.casc-card-icon}
 
 ### Groupe 1
 
 [Jean-François Barthélémy](https://jfbarthelemy.github.io/)
 
-[<i class="bi bi-envelope-fill"></i> jean-francois.barthelemy@cerema.fr](mailto:jean-francois.barthelemy@cerema.fr)
+[{{< bi envelope-fill >}} jean-francois.barthelemy@cerema.fr](mailto:jean-francois.barthelemy@cerema.fr)
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-mortarboard-fill"></i>]{.casc-card-icon}
+[{{< bi mortarboard-fill >}}]{.casc-card-icon}
 
 ### Groupe 2
 
 [Urbain Vaes](https://urbain.vaes.uk/)
 
-[<i class="bi bi-envelope-fill"></i> urbain.vaes@inria.fr](mailto:urbain.vaes@inria.fr)
+[{{< bi envelope-fill >}} urbain.vaes@inria.fr](mailto:urbain.vaes@inria.fr)
 :::
 :::
 
 :::
 
 ::: {.casc-info-banner}
-<i class="bi bi-info-circle-fill"></i>
+{{< bi info-circle-fill >}}
 
 Pour toute question par courriel concernant le cours, merci de contacter **votre chargé de cours**.
 :::

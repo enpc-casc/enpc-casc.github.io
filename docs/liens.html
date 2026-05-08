@@ -74,6 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -305,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://codeberg.org/enpc-casc" title="Dépôt Codeberg" class="quarto-navigation-tool px-1" aria-label="Dépôt Codeberg"><i class="bi bi-git"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -358,81 +363,101 @@ ul.task-list li input[type="checkbox"] {
 <section id="documentation" class="level2">
 <h2 class="anchored" data-anchor-id="documentation"><span class="casc-section-title">Documentation</span></h2>
 <div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://docs.julialang.org/en/v1/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-book-fill"></i></span>
-      <h3 class="anchored">Documentation Julia</h3>
-      <p>Documentation officielle complète du langage.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://learnxinyminutes.com/docs/julia" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-stopwatch-fill"></i></span>
-      <h3 class="anchored">Learn X in Y minutes</h3>
-      <p>Cheat-sheet rapide pour Julia.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://github.com/xorJane/Introduction_to_Julia_tutorials" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-mortarboard-fill"></i></span>
-      <h3 class="anchored">Tutoriels d'introduction</h3>
-      <p>Notebooks d'introduction (cf. vidéo plus bas).</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://modernjuliaworkflows.org/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-diagram-3-fill"></i></span>
-      <h3 class="anchored">MoJuWo</h3>
-      <p>Modern Julia Workflows — bonnes pratiques.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://gdalle.github.io/JuliaPerf-CERMICS/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-speedometer2"></i></span>
-      <h3 class="anchored">Julia performance</h3>
-      <p>Optimisation et benchmarking en Julia.</p>
-    </a>
-  </div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-book-fill"></i></span></p>
+<section id="documentation-julia" class="level3">
+<h3 class="anchored" data-anchor-id="documentation-julia"><a href="https://docs.julialang.org/en/v1/" class="casc-card-link" target="_blank" rel="noopener">Documentation Julia</a></h3>
+<p>Documentation officielle complète du langage.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-stopwatch-fill"></i></span></p>
+<section id="learn-x-in-y-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="learn-x-in-y-minutes"><a href="https://learnxinyminutes.com/docs/julia" class="casc-card-link" target="_blank" rel="noopener">Learn X in Y minutes</a></h3>
+<p>Cheat-sheet rapide pour Julia.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-mortarboard-fill"></i></span></p>
+<section id="tutoriels-dintroduction" class="level3">
+<h3 class="anchored" data-anchor-id="tutoriels-dintroduction"><a href="https://github.com/xorJane/Introduction_to_Julia_tutorials" class="casc-card-link" target="_blank" rel="noopener">Tutoriels d’introduction</a></h3>
+<p>Notebooks d’introduction (cf.&nbsp;vidéo plus bas).</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-diagram-3-fill"></i></span></p>
+<section id="mojuwo" class="level3">
+<h3 class="anchored" data-anchor-id="mojuwo"><a href="https://modernjuliaworkflows.org/" class="casc-card-link" target="_blank" rel="noopener">MoJuWo</a></h3>
+<p>Modern Julia Workflows — bonnes pratiques.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-speedometer2"></i></span></p>
+<section id="julia-performance" class="level3">
+<h3 class="anchored" data-anchor-id="julia-performance"><a href="https://gdalle.github.io/JuliaPerf-CERMICS/" class="casc-card-link" target="_blank" rel="noopener">Julia performance</a></h3>
+<p>Optimisation et benchmarking en Julia.</p>
+</section>
+</div>
+</div>
 </div>
 </section>
 <section id="bibliothèques" class="level2">
 <h2 class="anchored" data-anchor-id="bibliothèques"><span class="casc-section-title">Bibliothèques</span></h2>
 <div class="grid">
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaPlots/Plots.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-up"></i></span>
-      <h3 class="anchored">Plots.jl</h3>
-      <p>Visualisation polyvalente.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaMath/Polynomials.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-calculator-fill"></i></span>
-      <h3 class="anchored">Polynomials.jl</h3>
-      <p>Manipulation de polynômes.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaMath/Interpolations.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-soundwave"></i></span>
-      <h3 class="anchored">Interpolations.jl</h3>
-      <p>Interpolation multidimensionnelle.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaDiff/ForwardDiff.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-up-arrow"></i></span>
-      <h3 class="anchored">ForwardDiff.jl</h3>
-      <p>Différentiation automatique en mode direct.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/FluxML/Zygote.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-down-arrow"></i></span>
-      <h3 class="anchored">Zygote.jl</h3>
-      <p>Différentiation automatique en mode inverse.</p>
-    </a>
-  </div>
+<div class="g-col-12 g-col-md-4">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-graph-up"></i></span></p>
+<section id="plots.jl" class="level3">
+<h3 class="anchored" data-anchor-id="plots.jl"><a href="https://github.com/JuliaPlots/Plots.jl" class="casc-card-link" target="_blank" rel="noopener">Plots.jl</a></h3>
+<p>Visualisation polyvalente.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-calculator-fill"></i></span></p>
+<section id="polynomials.jl" class="level3">
+<h3 class="anchored" data-anchor-id="polynomials.jl"><a href="https://github.com/JuliaMath/Polynomials.jl" class="casc-card-link" target="_blank" rel="noopener">Polynomials.jl</a></h3>
+<p>Manipulation de polynômes.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-soundwave"></i></span></p>
+<section id="interpolations.jl" class="level3">
+<h3 class="anchored" data-anchor-id="interpolations.jl"><a href="https://github.com/JuliaMath/Interpolations.jl" class="casc-card-link" target="_blank" rel="noopener">Interpolations.jl</a></h3>
+<p>Interpolation multidimensionnelle.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-graph-up-arrow"></i></span></p>
+<section id="forwarddiff.jl" class="level3">
+<h3 class="anchored" data-anchor-id="forwarddiff.jl"><a href="https://github.com/JuliaDiff/ForwardDiff.jl" class="casc-card-link" target="_blank" rel="noopener">ForwardDiff.jl</a></h3>
+<p>Différentiation automatique en mode direct.</p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="casc-card">
+<p><span class="casc-card-icon"><i class="bi bi-graph-down-arrow"></i></span></p>
+<section id="zygote.jl" class="level3">
+<h3 class="anchored" data-anchor-id="zygote.jl"><a href="https://github.com/FluxML/Zygote.jl" class="casc-card-link" target="_blank" rel="noopener">Zygote.jl</a></h3>
+<p>Différentiation automatique en mode inverse.</p>
+</section>
+</div>
+</div>
 </div>
 </section>
 <section id="vidéos" class="level2">

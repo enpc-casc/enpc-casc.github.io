@@ -50,9 +50,9 @@ website:
         text: Crédits
         icon: people
     tools:
-      - icon: github
-        href: https://github.com/enpc-casc
-        text: "Dépôt GitHub"
+      - icon: git
+        href: https://codeberg.org/enpc-casc
+        text: "Dépôt Codeberg"
   page-footer:
     background: light
     left: |
@@ -71,6 +71,7 @@ format:
       light: [cosmo, theme-light.scss]
       dark: [darkly, theme-dark.scss]
     css: styles.css
+    include-in-header: dark-default.html
     toc: true
     toc-depth: 3
     toc-location: right

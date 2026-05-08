@@ -5,50 +5,18 @@ toc: false
 ---
 
 ::: {.casc-info-banner}
-<i class="bi bi-info-circle-fill"></i>
+{{< bi info-circle-fill >}}
 
 Les supports de cours sont disponibles en **français** et en **anglais**. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.
 :::
 
-::: {.casc-table-wrapper}
+::: {.casc-course-table}
 
-```{=html}
-<table class="casc-table">
-  <thead>
-    <tr>
-      <th style="width: 8rem;">Semaine</th>
-      <th>Sujet</th>
-      <th style="width: 9rem;">Français</th>
-      <th style="width: 9rem;">English</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="casc-week-badge">Sem. 1</span></td>
-      <td class="casc-topic">Introduction au langage Julia</td>
-      <td><a class="casc-lang-btn fr" href="cours/julia_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
-      <td><a class="casc-lang-btn en" href="cours/julia_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
-    </tr>
-    <tr>
-      <td><span class="casc-week-badge">Sem. 2</span></td>
-      <td class="casc-topic">Interpolation</td>
-      <td><a class="casc-lang-btn fr" href="cours/interpolation_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
-      <td><a class="casc-lang-btn en" href="cours/interpolation_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
-    </tr>
-    <tr>
-      <td><span class="casc-week-badge">Sem. 2</span></td>
-      <td class="casc-topic">Intégration numérique</td>
-      <td><a class="casc-lang-btn fr" href="cours/integration_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
-      <td><a class="casc-lang-btn en" href="cours/integration_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
-    </tr>
-    <tr>
-      <td><span class="casc-week-badge">Sem. 3</span></td>
-      <td class="casc-topic">Systèmes linéaires</td>
-      <td><a class="casc-lang-btn fr" href="cours/linear_fr.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> FR</a></td>
-      <td><a class="casc-lang-btn en" href="cours/linear_en.html" target="_blank" rel="noopener"><i class="bi bi-flag-fill"></i> EN</a></td>
-    </tr>
-  </tbody>
-</table>
-```
+| Semaine | Sujet | Français | English |
+|---------|-------|----------|---------|
+| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [FR](cours/julia_fr.html){target="_blank"} | [EN](cours/julia_en.html){target="_blank"} |
+| [Sem. 2]{.casc-week-badge} | Interpolation | [FR](cours/interpolation_fr.html){target="_blank"} | [EN](cours/interpolation_en.html){target="_blank"} |
+| [Sem. 2]{.casc-week-badge} | Intégration numérique | [FR](cours/integration_fr.html){target="_blank"} | [EN](cours/integration_en.html){target="_blank"} |
+| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [FR](cours/linear_fr.html){target="_blank"} | [EN](cours/linear_en.html){target="_blank"} |
 
 :::

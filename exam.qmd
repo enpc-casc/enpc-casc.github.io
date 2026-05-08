@@ -4,14 +4,8 @@ subtitle: "Modalités et consignes"
 toc: false
 ---
 
-```{=html}
-<a class="casc-btn casc-btn-primary" href="notebooks/resit.ipynb" download>
-  <i class="bi bi-pencil-square"></i> Énoncé du rattrapage
-</a>
-<a class="casc-btn casc-btn-ghost" href="https://educnet.enpc.fr/mod/assign/view.php?id=66064" target="_blank" rel="noopener">
-  <i class="bi bi-cloud-upload-fill"></i> Soumission Educnet
-</a>
-```
+[{{< bi pencil-square >}} Énoncé du rattrapage](notebooks/resit.ipynb){.casc-btn .casc-btn-primary download=""}
+[{{< bi cloud-upload-fill >}} Soumission Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=66064){.casc-btn .casc-btn-ghost}
 
 ## [Consignes]{.casc-section-title}
 
@@ -19,7 +13,7 @@ toc: false
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-cloud-upload-fill"></i>]{.casc-card-icon}
+[{{< bi cloud-upload-fill >}}]{.casc-card-icon}
 
 ### Soumission
 
@@ -31,7 +25,7 @@ L'**heure limite** de remise est à **11h30**.
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-book-fill"></i>]{.casc-card-icon}
+[{{< bi book-fill >}}]{.casc-card-icon}
 
 ### Documents autorisés
 
@@ -43,7 +37,7 @@ L'usage du **Web** est permis.
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-robot"></i>]{.casc-card-icon}
+[{{< bi robot >}}]{.casc-card-icon}
 
 ### IA interdite
 
@@ -53,7 +47,7 @@ L'usage d'**intelligences artificielles** (ChatGPT, Copilot, etc.) est **interdi
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.casc-card}
-[<i class="bi bi-person-x-fill"></i>]{.casc-card-icon}
+[{{< bi person-x-fill >}}]{.casc-card-icon}
 
 ### Pas d'échange
 

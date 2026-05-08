@@ -74,6 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -305,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://codeberg.org/enpc-casc" title="Dépôt Codeberg" class="quarto-navigation-tool px-1" aria-label="Dépôt Codeberg"><i class="bi bi-git"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -344,40 +349,40 @@ ul.task-list li input[type="checkbox"] {
 <p><i class="bi bi-archive-fill"></i></p>
 <p>Sujets et corrections des examens des années précédentes. Consultez-les pour vous entraîner.</p>
 </div>
-<div class="casc-table-wrapper">
-<table class="casc-table caption-top table">
+<div class="casc-archive-table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th" style="width: 9rem">Année</th>
-<th data-quarto-table-cell-role="th">Épreuve</th>
-<th data-quarto-table-cell-role="th" style="width: 11rem">Énoncé</th>
-<th data-quarto-table-cell-role="th" style="width: 11rem">Solution</th>
+<th>Année</th>
+<th>Épreuve</th>
+<th>Énoncé</th>
+<th>Solution</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><span class="casc-week-badge">2023</span></td>
-<td class="casc-topic">Examen</td>
-<td><a href="notebooks/exam_2023.ipynb" class="casc-action-btn primary" download=""><em></em> Notebook</a></td>
-<td><a href="notebooks/exam_2023_sol.html" class="casc-action-btn accent" target="_blank" rel="noopener"><em></em> HTML</a></td>
+<td>Examen</td>
+<td><a href="notebooks/exam_2023.ipynb" download=""><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+<td><a href="notebooks/exam_2023_sol.html"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
 </tr>
 <tr class="even">
 <td><span class="casc-week-badge">2023</span></td>
-<td class="casc-topic">Rattrapage</td>
-<td><a href="notebooks/resit_2023.ipynb" class="casc-action-btn primary" download=""><em></em> Notebook</a></td>
-<td><a href="notebooks/resit_2023_sol.html" class="casc-action-btn accent" target="_blank" rel="noopener"><em></em> HTML</a></td>
+<td>Rattrapage</td>
+<td><a href="notebooks/resit_2023.ipynb" download=""><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+<td><a href="notebooks/resit_2023_sol.html"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
 </tr>
 <tr class="odd">
 <td><span class="casc-week-badge">2024</span></td>
-<td class="casc-topic">Examen</td>
-<td><a href="notebooks/exam_2024.ipynb" class="casc-action-btn primary" download=""><em></em> Notebook</a></td>
-<td><a href="notebooks/exam_2024_sol.html" class="casc-action-btn accent" target="_blank" rel="noopener"><em></em> HTML</a></td>
+<td>Examen</td>
+<td><a href="notebooks/exam_2024.ipynb" download=""><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+<td><a href="notebooks/exam_2024_sol.html"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
 </tr>
 <tr class="even">
 <td><span class="casc-week-badge">2024</span></td>
-<td class="casc-topic">Rattrapage</td>
-<td><a href="notebooks/resit_2024.ipynb" class="casc-action-btn primary" download=""><em></em> Notebook</a></td>
-<td><a href="notebooks/resit_2024_sol.html" class="casc-action-btn accent" target="_blank" rel="noopener"><em></em> HTML</a></td>
+<td>Rattrapage</td>
+<td><a href="notebooks/resit_2024.ipynb" download=""><i class="bi bi-file-earmark-code"></i> Notebook</a></td>
+<td><a href="notebooks/resit_2024_sol.html"><i class="bi bi-file-earmark-text"></i> HTML</a></td>
 </tr>
 </tbody>
 </table>

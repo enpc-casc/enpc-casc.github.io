@@ -6,93 +6,121 @@ toc: true
 
 ## [Documentation]{.casc-section-title}
 
-```{=html}
-<div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://docs.julialang.org/en/v1/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-book-fill"></i></span>
-      <h3>Documentation Julia</h3>
-      <p>Documentation officielle complète du langage.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://learnxinyminutes.com/docs/julia" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-stopwatch-fill"></i></span>
-      <h3>Learn X in Y minutes</h3>
-      <p>Cheat-sheet rapide pour Julia.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://github.com/xorJane/Introduction_to_Julia_tutorials" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-mortarboard-fill"></i></span>
-      <h3>Tutoriels d'introduction</h3>
-      <p>Notebooks d'introduction (cf. vidéo plus bas).</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://modernjuliaworkflows.org/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-diagram-3-fill"></i></span>
-      <h3>MoJuWo</h3>
-      <p>Modern Julia Workflows — bonnes pratiques.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-card" href="https://gdalle.github.io/JuliaPerf-CERMICS/" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-speedometer2"></i></span>
-      <h3>Julia performance</h3>
-      <p>Optimisation et benchmarking en Julia.</p>
-    </a>
-  </div>
-</div>
-```
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi book-fill >}}]{.casc-card-icon}
+
+### [Documentation Julia](https://docs.julialang.org/en/v1/){.casc-card-link target="_blank" rel="noopener"}
+
+Documentation officielle complète du langage.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi stopwatch-fill >}}]{.casc-card-icon}
+
+### [Learn X in Y minutes](https://learnxinyminutes.com/docs/julia){.casc-card-link target="_blank" rel="noopener"}
+
+Cheat-sheet rapide pour Julia.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi mortarboard-fill >}}]{.casc-card-icon}
+
+### [Tutoriels d'introduction](https://github.com/xorJane/Introduction_to_Julia_tutorials){.casc-card-link target="_blank" rel="noopener"}
+
+Notebooks d'introduction (cf. vidéo plus bas).
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi diagram-3-fill >}}]{.casc-card-icon}
+
+### [MoJuWo](https://modernjuliaworkflows.org/){.casc-card-link target="_blank" rel="noopener"}
+
+Modern Julia Workflows — bonnes pratiques.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi speedometer2 >}}]{.casc-card-icon}
+
+### [Julia performance](https://gdalle.github.io/JuliaPerf-CERMICS/){.casc-card-link target="_blank" rel="noopener"}
+
+Optimisation et benchmarking en Julia.
+:::
+:::
+
+:::
 
 ## [Bibliothèques]{.casc-section-title}
 
-```{=html}
-<div class="grid">
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaPlots/Plots.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-up"></i></span>
-      <h3>Plots.jl</h3>
-      <p>Visualisation polyvalente.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaMath/Polynomials.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-calculator-fill"></i></span>
-      <h3>Polynomials.jl</h3>
-      <p>Manipulation de polynômes.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaMath/Interpolations.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-soundwave"></i></span>
-      <h3>Interpolations.jl</h3>
-      <p>Interpolation multidimensionnelle.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/JuliaDiff/ForwardDiff.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-up-arrow"></i></span>
-      <h3>ForwardDiff.jl</h3>
-      <p>Différentiation automatique en mode direct.</p>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-4">
-    <a class="casc-card" href="https://github.com/FluxML/Zygote.jl" target="_blank" rel="noopener">
-      <span class="casc-card-icon"><i class="bi bi-graph-down-arrow"></i></span>
-      <h3>Zygote.jl</h3>
-      <p>Différentiation automatique en mode inverse.</p>
-    </a>
-  </div>
-</div>
-```
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[{{< bi graph-up >}}]{.casc-card-icon}
+
+### [Plots.jl](https://github.com/JuliaPlots/Plots.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Visualisation polyvalente.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[{{< bi calculator-fill >}}]{.casc-card-icon}
+
+### [Polynomials.jl](https://github.com/JuliaMath/Polynomials.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Manipulation de polynômes.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[{{< bi soundwave >}}]{.casc-card-icon}
+
+### [Interpolations.jl](https://github.com/JuliaMath/Interpolations.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Interpolation multidimensionnelle.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[{{< bi graph-up-arrow >}}]{.casc-card-icon}
+
+### [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Différentiation automatique en mode direct.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.casc-card}
+[{{< bi graph-down-arrow >}}]{.casc-card-icon}
+
+### [Zygote.jl](https://github.com/FluxML/Zygote.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Différentiation automatique en mode inverse.
+:::
+:::
+
+:::
 
 ## [Vidéos]{.casc-section-title}
 
 ### Intro to Julia tutorial
 
-[<i class="bi bi-code-slash"></i> Notebooks associés](https://github.com/xorJane/Introduction_to_Julia_tutorials){.casc-action-btn .ghost target="_blank" rel="noopener"}
+[{{< bi code-slash >}} Notebooks associés](https://github.com/xorJane/Introduction_to_Julia_tutorials){.casc-action-btn .ghost target="_blank" rel="noopener"}
 
 {{< video https://www.youtube.com/embed/8h8rQyEpiZA >}}
 

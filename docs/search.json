@@ -11,35 +11,35 @@
     "href": "poly.html#chapitres",
     "title": "Polycopié",
     "section": "Chapitres",
-    "text": "Chapitres\n\n  \n    \n      0\n      Introduction\n    \n  \n  \n    \n      1\n      Floating point arithmetic\n    \n  \n  \n    \n      2\n      Interpolation and approximation\n    \n  \n  \n    \n      3\n      Numerical integration\n    \n  \n  \n    \n      4\n      Solving linear equations\n    \n  \n  \n    \n      5\n      Solving nonlinear equations\n    \n  \n  \n    \n      6\n      Eigenvalues and eigenvectors\n    \n  \n  \n    \n      7\n      Numerical integration of ODEs\n    \n  \n  \n    \n      8\n      Numerical optimization"
+    "text": "Chapitres\n\n\n0 Introduction\n1 Floating point arithmetic\n2 Interpolation and approximation\n3 Numerical integration\n4 Solving linear equations\n5 Solving nonlinear equations\n6 Eigenvalues and eigenvectors\n7 Numerical integration of ODEs\n8 Numerical optimization"
   },
   {
     "objectID": "poly.html#annexes",
     "href": "poly.html#annexes",
     "title": "Polycopié",
     "section": "Annexes",
-    "text": "Annexes\n\n  \n    \n      A\n      Linear algebra\n    \n  \n  \n    \n      B\n      Introduction to Julia\n    \n  \n  \n    \n      C\n      Chebyshev polynomials\n    \n  \n  \n    \n      \n      Bibliography"
+    "text": "Annexes\n\n\nA Linear algebra\nB Introduction to Julia\nC Chebyshev polynomials\nBib Bibliography"
   },
   {
     "objectID": "liens.html",
     "href": "liens.html",
     "title": "Liens utiles",
     "section": "",
-    "text": "Documentation officielle complète du langage.\n    \n  \n  \n    \n      \n      \n      Cheat-sheet rapide pour Julia.\n    \n  \n  \n    \n      \n      \n      Notebooks d'introduction (cf. vidéo plus bas).\n    \n  \n  \n    \n      \n      \n      Modern Julia Workflows — bonnes pratiques.\n    \n  \n  \n    \n      \n      \n      Optimisation et benchmarking en Julia."
+    "text": "Documentation officielle complète du langage.\n\n\n\n\n\n\n\n\nCheat-sheet rapide pour Julia.\n\n\n\n\n\n\n\n\nNotebooks d’introduction (cf. vidéo plus bas).\n\n\n\n\n\n\n\n\nModern Julia Workflows — bonnes pratiques.\n\n\n\n\n\n\n\n\nOptimisation et benchmarking en Julia."
   },
   {
     "objectID": "liens.html#documentation",
     "href": "liens.html#documentation",
     "title": "Liens utiles",
     "section": "",
-    "text": "Documentation officielle complète du langage.\n    \n  \n  \n    \n      \n      \n      Cheat-sheet rapide pour Julia.\n    \n  \n  \n    \n      \n      \n      Notebooks d'introduction (cf. vidéo plus bas).\n    \n  \n  \n    \n      \n      \n      Modern Julia Workflows — bonnes pratiques.\n    \n  \n  \n    \n      \n      \n      Optimisation et benchmarking en Julia."
+    "text": "Documentation officielle complète du langage.\n\n\n\n\n\n\n\n\nCheat-sheet rapide pour Julia.\n\n\n\n\n\n\n\n\nNotebooks d’introduction (cf. vidéo plus bas).\n\n\n\n\n\n\n\n\nModern Julia Workflows — bonnes pratiques.\n\n\n\n\n\n\n\n\nOptimisation et benchmarking en Julia."
   },
   {
     "objectID": "liens.html#bibliothèques",
     "href": "liens.html#bibliothèques",
     "title": "Liens utiles",
     "section": "Bibliothèques",
-    "text": "Bibliothèques\n\n  \n    \n      \n      Plots.jl\n      Visualisation polyvalente.\n    \n  \n  \n    \n      \n      Polynomials.jl\n      Manipulation de polynômes.\n    \n  \n  \n    \n      \n      Interpolations.jl\n      Interpolation multidimensionnelle.\n    \n  \n  \n    \n      \n      ForwardDiff.jl\n      Différentiation automatique en mode direct.\n    \n  \n  \n    \n      \n      Zygote.jl\n      Différentiation automatique en mode inverse."
+    "text": "Bibliothèques\n\n\n\n\n\nPlots.jl\nVisualisation polyvalente.\n\n\n\n\n\n\n\nPolynomials.jl\nManipulation de polynômes.\n\n\n\n\n\n\n\nInterpolations.jl\nInterpolation multidimensionnelle.\n\n\n\n\n\n\n\nForwardDiff.jl\nDifférentiation automatique en mode direct.\n\n\n\n\n\n\n\nZygote.jl\nDifférentiation automatique en mode inverse."
   },
   {
     "objectID": "liens.html#vidéos",
@@ -53,7 +53,7 @@
     "href": "exam.html",
     "title": "Examen de rattrapage",
     "section": "",
-    "text": "Énoncé du rattrapage"
+    "text": "Énoncé du rattrapage  Soumission Educnet"
   },
   {
     "objectID": "exam.html#consignes",
@@ -67,7 +67,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n FR\n EN\n\n\nSem. 2\nInterpolation\n FR\n EN\n\n\nSem. 2\nIntégration numérique\n FR\n EN\n\n\nSem. 3\nSystèmes linéaires\n FR\n EN\n\n\n\n\n\n\n\n Back to top"
+    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\nFR\nEN\n\n\nSem. 2\nInterpolation\nFR\nEN\n\n\nSem. 2\nIntégration numérique\nFR\nEN\n\n\nSem. 3\nSystèmes linéaires\nFR\nEN\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "archives.html",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Pratique du calcul scientifique",
     "section": "",
-    "text": "Cours pratique à l’École nationale des ponts et chaussées — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n ENPC  Julia  Polycopié  Notebooks Jupyter\n\n\n Voir les cours  Notebooks  Polycopié"
+    "text": "Cours de l’École Nationale des Ponts et Chaussées — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n ENPC  Julia  Polycopié  Notebooks Jupyter\n\n\n Voir les cours  Notebooks  Polycopié"
   },
   {
     "objectID": "index.html#installations-préalables",
@@ -116,6 +116,6 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Pour télécharger un notebook, cliquez-droit sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s’effectuent via Educnet.\n\n\n\n\n\nSemaine\nSujet\nÉnoncé\nSoumission\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n Notebook\n Educnet\n\n\nSem. 2\nInterpolation et intégration\n Notebook\n Educnet\n\n\nSem. 3\nSystèmes linéaires\n Notebook\n à venir\n\n\n\n\n\n\n\n Back to top"
+    "text": "Pour télécharger un notebook, cliquez-droit sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s’effectuent via Educnet.\n\n\n\n\n\nSemaine\nSujet\nÉnoncé\nSoumission\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n Notebook\n Educnet\n\n\nSem. 2\nInterpolation et intégration\n Notebook\n Educnet\n\n\nSem. 3\nSystèmes linéaires\n Notebook\nà venir\n\n\n\n\n\n\n\n Back to top"
   }
 ]

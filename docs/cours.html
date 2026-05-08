@@ -74,6 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -305,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://codeberg.org/enpc-casc" title="Dépôt Codeberg" class="quarto-navigation-tool px-1" aria-label="Dépôt Codeberg"><i class="bi bi-git"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -344,40 +349,40 @@ ul.task-list li input[type="checkbox"] {
 <p><i class="bi bi-info-circle-fill"></i></p>
 <p>Les supports de cours sont disponibles en <strong>français</strong> et en <strong>anglais</strong>. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.</p>
 </div>
-<div class="casc-table-wrapper">
-<table class="casc-table caption-top table">
+<div class="casc-course-table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th" style="width: 8rem">Semaine</th>
-<th data-quarto-table-cell-role="th">Sujet</th>
-<th data-quarto-table-cell-role="th" style="width: 9rem">Français</th>
-<th data-quarto-table-cell-role="th" style="width: 9rem">English</th>
+<th>Semaine</th>
+<th>Sujet</th>
+<th>Français</th>
+<th>English</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><span class="casc-week-badge">Sem. 1</span></td>
-<td class="casc-topic">Introduction au langage Julia</td>
-<td><a href="cours/julia_fr.html" class="casc-lang-btn fr" target="_blank" rel="noopener"><em></em> FR</a></td>
-<td><a href="cours/julia_en.html" class="casc-lang-btn en" target="_blank" rel="noopener"><em></em> EN</a></td>
+<td>Introduction au langage Julia</td>
+<td><a href="cours/julia_fr.html" target="_blank">FR</a></td>
+<td><a href="cours/julia_en.html" target="_blank">EN</a></td>
 </tr>
 <tr class="even">
 <td><span class="casc-week-badge">Sem. 2</span></td>
-<td class="casc-topic">Interpolation</td>
-<td><a href="cours/interpolation_fr.html" class="casc-lang-btn fr" target="_blank" rel="noopener"><em></em> FR</a></td>
-<td><a href="cours/interpolation_en.html" class="casc-lang-btn en" target="_blank" rel="noopener"><em></em> EN</a></td>
+<td>Interpolation</td>
+<td><a href="cours/interpolation_fr.html" target="_blank">FR</a></td>
+<td><a href="cours/interpolation_en.html" target="_blank">EN</a></td>
 </tr>
 <tr class="odd">
 <td><span class="casc-week-badge">Sem. 2</span></td>
-<td class="casc-topic">Intégration numérique</td>
-<td><a href="cours/integration_fr.html" class="casc-lang-btn fr" target="_blank" rel="noopener"><em></em> FR</a></td>
-<td><a href="cours/integration_en.html" class="casc-lang-btn en" target="_blank" rel="noopener"><em></em> EN</a></td>
+<td>Intégration numérique</td>
+<td><a href="cours/integration_fr.html" target="_blank">FR</a></td>
+<td><a href="cours/integration_en.html" target="_blank">EN</a></td>
 </tr>
 <tr class="even">
 <td><span class="casc-week-badge">Sem. 3</span></td>
-<td class="casc-topic">Systèmes linéaires</td>
-<td><a href="cours/linear_fr.html" class="casc-lang-btn fr" target="_blank" rel="noopener"><em></em> FR</a></td>
-<td><a href="cours/linear_en.html" class="casc-lang-btn en" target="_blank" rel="noopener"><em></em> EN</a></td>
+<td>Systèmes linéaires</td>
+<td><a href="cours/linear_fr.html" target="_blank">FR</a></td>
+<td><a href="cours/linear_en.html" target="_blank">EN</a></td>
 </tr>
 </tbody>
 </table>

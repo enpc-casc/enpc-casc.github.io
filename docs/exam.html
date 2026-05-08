@@ -74,6 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -305,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://codeberg.org/enpc-casc" title="Dépôt Codeberg" class="quarto-navigation-tool px-1" aria-label="Dépôt Codeberg"><i class="bi bi-git"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -340,12 +345,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<a class="casc-btn casc-btn-primary" href="notebooks/resit.ipynb" download="">
-  <i class="bi bi-pencil-square"></i> Énoncé du rattrapage
-</a>
-<a class="casc-btn casc-btn-ghost" href="https://educnet.enpc.fr/mod/assign/view.php?id=66064" target="_blank" rel="noopener">
-  <i class="bi bi-cloud-upload-fill"></i> Soumission Educnet
-</a>
+<p><a href="notebooks/resit.ipynb" class="casc-btn casc-btn-primary" download=""><i class="bi bi-pencil-square"></i> Énoncé du rattrapage</a> <a href="https://educnet.enpc.fr/mod/assign/view.php?id=66064" class="casc-btn casc-btn-ghost"><i class="bi bi-cloud-upload-fill"></i> Soumission Educnet</a></p>
 <section id="consignes" class="level2">
 <h2 class="anchored" data-anchor-id="consignes"><span class="casc-section-title">Consignes</span></h2>
 <div class="grid">

@@ -74,6 +74,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script>
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -305,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/enpc-casc" title="Dépôt GitHub" class="quarto-navigation-tool px-1" aria-label="Dépôt GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://codeberg.org/enpc-casc" title="Dépôt Codeberg" class="quarto-navigation-tool px-1" aria-label="Dépôt Codeberg"><i class="bi bi-git"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -347,90 +352,29 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/main.pdf" class="casc-btn casc-btn-primary" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf-fill"></i> Notes complètes (PDF)</a></p>
 <section id="chapitres" class="level2">
 <h2 class="anchored" data-anchor-id="chapitres"><span class="casc-section-title">Chapitres</span></h2>
-<div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/introduction.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">0</span>
-      <span class="casc-chapter-title">Introduction</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/roundoff.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">1</span>
-      <span class="casc-chapter-title">Floating point arithmetic</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/interpolation_approximation.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">2</span>
-      <span class="casc-chapter-title">Interpolation and approximation</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/numerical_integration.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">3</span>
-      <span class="casc-chapter-title">Numerical integration</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/linear_equations.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">4</span>
-      <span class="casc-chapter-title">Solving linear equations</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/nonlinear_equations.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">5</span>
-      <span class="casc-chapter-title">Solving nonlinear equations</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/eigenproblems.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">6</span>
-      <span class="casc-chapter-title">Eigenvalues and eigenvectors</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/odes.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">7</span>
-      <span class="casc-chapter-title">Numerical integration of ODEs</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/optimization.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num">8</span>
-      <span class="casc-chapter-title">Numerical optimization</span>
-    </a>
-  </div>
+<div class="casc-chapters-grid">
+<ul>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/introduction.pdf" target="_blank"><strong>0</strong> Introduction</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/roundoff.pdf" target="_blank"><strong>1</strong> Floating point arithmetic</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/interpolation_approximation.pdf" target="_blank"><strong>2</strong> Interpolation and approximation</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/numerical_integration.pdf" target="_blank"><strong>3</strong> Numerical integration</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/linear_equations.pdf" target="_blank"><strong>4</strong> Solving linear equations</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/nonlinear_equations.pdf" target="_blank"><strong>5</strong> Solving nonlinear equations</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/eigenproblems.pdf" target="_blank"><strong>6</strong> Eigenvalues and eigenvectors</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/odes.pdf" target="_blank"><strong>7</strong> Numerical integration of ODEs</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/optimization.pdf" target="_blank"><strong>8</strong> Numerical optimization</a></li>
+</ul>
 </div>
 </section>
 <section id="annexes" class="level2">
 <h2 class="anchored" data-anchor-id="annexes"><span class="casc-section-title">Annexes</span></h2>
-<div class="grid">
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/matrices.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">A</span>
-      <span class="casc-chapter-title">Linear algebra</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/julia.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">B</span>
-      <span class="casc-chapter-title">Introduction to Julia</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/chebyshev.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix">C</span>
-      <span class="casc-chapter-title">Chebyshev polynomials</span>
-    </a>
-  </div>
-  <div class="g-col-12 g-col-md-6">
-    <a class="casc-chapter-card" href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/references.pdf" target="_blank" rel="noopener">
-      <span class="casc-chapter-num appendix"><i class="bi bi-book"></i></span>
-      <span class="casc-chapter-title">Bibliography</span>
-    </a>
-  </div>
+<div class="casc-chapters-grid appendix">
+<ul>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/matrices.pdf" target="_blank"><strong>A</strong> Linear algebra</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/julia.pdf" target="_blank"><strong>B</strong> Introduction to Julia</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/chebyshev.pdf" target="_blank"><strong>C</strong> Chebyshev polynomials</a></li>
+<li><a href="https://urbain.vaes.uk/static/teaching/scientific_computing/build/references.pdf" target="_blank"><strong>Bib</strong> Bibliography</a></li>
+</ul>
 </div>
 
 
