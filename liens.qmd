@@ -1,7 +1,7 @@
 ---
 title: "Liens utiles"
 subtitle: "Documentation, bibliothèques et tutoriels Julia"
-toc: true
+toc: false
 ---
 
 ## [Documentation]{.casc-section-title}

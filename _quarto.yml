@@ -72,7 +72,7 @@ format:
       dark: [darkly, theme-dark.scss]
     css: styles.css
     include-in-header: dark-default.html
-    toc: true
+    toc: false
     toc-depth: 3
     toc-location: right
     smooth-scroll: true
