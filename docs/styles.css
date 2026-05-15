@@ -37,9 +37,9 @@ code, pre, .sourceCode {
 
 .casc-hero {
   position: relative;
-  margin: -1rem -1rem 2.5rem -1rem;
-  padding: 2.5rem 2rem 3rem 2rem;
-  border-radius: 0 0 var(--casc-radius) var(--casc-radius);
+  margin: 0 -1rem 2.5rem -1rem;
+  padding: 1.8rem 2rem 2.2rem 2rem;
+  border-radius: var(--casc-radius);
   background: linear-gradient(135deg, #1f5fa8 0%, #2980d4 50%, #4cc9f0 100%);
   color: #ffffff;
   overflow: hidden;
@@ -105,18 +105,18 @@ code, pre, .sourceCode {
 }
 
 .casc-hero .casc-hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   opacity: 0.95;
-  margin-bottom: 1.6rem;
-  line-height: 1.55;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .casc-hero .casc-hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-bottom: 1.8rem;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .casc-chip {
