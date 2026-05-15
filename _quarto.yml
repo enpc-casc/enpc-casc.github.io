@@ -37,9 +37,9 @@ website:
       - href: notebooks.qmd
         text: Notebooks
         icon: code-slash
-      - href: exam.qmd
-        text: Examen
-        icon: pencil-square
+      # - href: exam.qmd
+      #   text: Examen
+      #   icon: pencil-square
       - href: archives.qmd
         text: Archives
         icon: archive

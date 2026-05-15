@@ -4,7 +4,7 @@ subtitle: "Modalités et consignes"
 toc: false
 ---
 
-[{{< bi pencil-square >}} Énoncé du rattrapage](notebooks/resit.ipynb){.casc-action-btn .primary download=""}
+[{{< bi pencil-square >}} Énoncé du rattrapage](notebooks/resit_2025.ipynb){.casc-action-btn .primary download=""}
 [{{< bi cloud-upload-fill >}} Soumission Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=66064){.casc-btn .casc-btn-ghost}
 
 ## [Consignes]{.casc-section-title}

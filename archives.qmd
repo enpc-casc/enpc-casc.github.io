@@ -18,5 +18,7 @@ Sujets et corrections des examens des années précédentes. Consultez-les pour 
 | [2023]{.casc-week-badge} | Rattrapage | [{{< bi file-earmark-code >}} Notebook](notebooks/resit_2023.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/resit_2023_sol.html) |
 | [2024]{.casc-week-badge} | Examen | [{{< bi file-earmark-code >}} Notebook](notebooks/exam_2024.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/exam_2024_sol.html) |
 | [2024]{.casc-week-badge} | Rattrapage | [{{< bi file-earmark-code >}} Notebook](notebooks/resit_2024.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/resit_2024_sol.html) |
+| [2024]{.casc-week-badge} | Examen | [{{< bi file-earmark-code >}} Notebook](notebooks/exam_2025.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/exam_2025_sol.html) |
+| [2024]{.casc-week-badge} | Rattrapage | [{{< bi file-earmark-code >}} Notebook](notebooks/resit_2025.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/resit_2025_sol.html) |
 
 :::
