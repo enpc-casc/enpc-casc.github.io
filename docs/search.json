@@ -93,21 +93,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CASC",
+    "title": "Informations pratiques",
     "section": "",
     "text": "Cours de l’École Nationale des Ponts et Chaussées — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n Voir les cours  Notebooks  Polycopié"
   },
   {
     "objectID": "index.html#installations-préalables",
     "href": "index.html#installations-préalables",
-    "title": "CASC",
+    "title": "Informations pratiques",
     "section": "Installations préalables",
     "text": "Installations préalables\nAvant de commencer, installez les outils suivants sur votre machine.\n\n\n\n\n\nJupyter\nDeux options pour installer Jupyter :\n\nAnaconda — distribution Python complète intégrant Jupyter\nJupyter seul\n\n\n\n\n\n\n\n\nJulia\nTéléchargez la dernière version officielle depuis le site de Julia. Le langage est rapide, expressif et conçu pour le calcul scientifique.\n\n\n\n\n\n\n\nVSCode\nInstallez VSCode puis l’extension Julia (icône  dans VSCode)."
   },
   {
     "objectID": "index.html#équipe-enseignante",
     "href": "index.html#équipe-enseignante",
-    "title": "CASC",
+    "title": "Informations pratiques",
     "section": "Équipe enseignante",
     "text": "Équipe enseignante\n\n\n\n\n\nGroupe 1\nJean-François Barthélémy\n jean-francois.barthelemy@cerema.fr\n\n\n\n\n\n\n\nGroupe 2\nUrbain Vaes\n urbain.vaes@inria.fr\n\n\n\n\n\n\nPour toute question par courriel concernant le cours, merci de contacter votre chargé de cours."
   },

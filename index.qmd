@@ -1,5 +1,5 @@
 ---
-title: "CASC"
+title: "Informations pratiques"
 page-layout: full
 toc: false
 ---
@@ -23,7 +23,7 @@ Cours de l'**École Nationale des Ponts et Chaussées** — Julia, interpolation
 ::: {.casc-hero-logos}
 ![](logo_enpc_blanc.png){.casc-hero-logo-enpc}
 
-![](logo_calcul_scientifique.png){.casc-hero-logo-course}
+![](logo_calcul_scientifique_transparent.png){.casc-hero-logo-course}
 :::
 :::
 :::

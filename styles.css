@@ -38,7 +38,7 @@ code, pre, .sourceCode {
 .casc-hero {
   position: relative;
   margin: -1rem -1rem 2.5rem -1rem;
-  padding: 4rem 2rem 4.5rem 2rem;
+  padding: 2.5rem 2rem 3rem 2rem;
   border-radius: 0 0 var(--casc-radius) var(--casc-radius);
   background: linear-gradient(135deg, #1f5fa8 0%, #2980d4 50%, #4cc9f0 100%);
   color: #ffffff;
@@ -85,7 +85,7 @@ code, pre, .sourceCode {
 
 .casc-hero-logo-course {
   width: 250px;
-  opacity: 0.50;
+  opacity: 1.00;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.18));
 }
 
