@@ -8,9 +8,9 @@ project:
     - "*.ipynb"
 
 website:
-  title: "Calcul scientifique"
+  title: "CASC"
   description: "Cours de pratique du calcul scientifique — ENPC"
-  favicon: "logo_calcul_scientifique.png"
+  favicon: "logo_calcul_scientifique_transparent.png"
   site-url: "https://enpc-casc.github.io/"
   search:
     location: navbar
@@ -21,7 +21,7 @@ website:
     background: primary
     pinned: true
     collapse-below: lg
-    logo: "logo_calcul_scientifique.png"
+    logo: "logo_calcul_scientifique_transparent.png"
     logo-alt: "Logo Calcul Scientifique"
     title: "Calcul scientifique"
     left:

@@ -1,5 +1,5 @@
 ---
-title: "Pratique du calcul scientifique"
+title: "CASC"
 page-layout: full
 toc: false
 ---
@@ -11,13 +11,6 @@ toc: false
 
 ::: {.casc-hero-subtitle}
 Cours de l'**École Nationale des Ponts et Chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
-:::
-
-::: {.casc-hero-meta}
-[{{< bi mortarboard-fill >}} ENPC]{.casc-chip}
-[{{< bi code-slash >}} Julia]{.casc-chip}
-[{{< bi book-half >}} Polycopié]{.casc-chip}
-[{{< bi clipboard-data >}} Notebooks Jupyter]{.casc-chip}
 :::
 
 ::: {.casc-hero-buttons}
