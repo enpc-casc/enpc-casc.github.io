@@ -12,10 +12,10 @@ Pour télécharger un notebook, **cliquez-droit** sur le lien et choisissez « E
 
 ::: {.casc-notebook-table}
 
-| Semaine | Sujet | Énoncé | Soumission |
-|---------|-------|--------|------------|
-| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download=""} | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75232) |
-| [Sem. 2]{.casc-week-badge} | Interpolation et intégration | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download=""} | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420) |
-| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download=""} | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75567) |
+| Semaine | Sujet | Énoncé | Solution | Soumission |
+|---------|-------|--------|----------|------------|
+| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/intro_julia_sol.html) | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75232) |
+| [Sem. 2]{.casc-week-badge} | Interpolation et intégration | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/interpolation_sol.html) | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420) |
+| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download=""} | [À venir]{.casc-action-ghost} | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75567) |
 
 :::

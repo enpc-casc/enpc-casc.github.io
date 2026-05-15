@@ -711,7 +711,7 @@ table.casc-table tbody td.casc-topic {
   box-shadow: 0 4px 10px rgba(111, 78, 201, 0.3);
 }
 
-/* Notebook table — col 3 = notebook (blue), col 4 = Educnet (accent) */
+/* Notebook table — col 3 = énoncé (blue), col 4 = solution (accent), col 5 = Educnet (purple) */
 .casc-notebook-table table tbody td:nth-child(3) a {
   background: var(--casc-primary-light);
   color: var(--casc-primary) !important;
@@ -733,6 +733,17 @@ table.casc-table tbody td.casc-topic {
   color: #ffffff !important;
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(244, 162, 97, 0.35);
+}
+.casc-notebook-table table tbody td:nth-child(5) a {
+  background: var(--casc-en-soft);
+  color: var(--casc-en) !important;
+  border-color: rgba(111, 78, 201, 0.25);
+}
+.casc-notebook-table table tbody td:nth-child(5) a:hover {
+  background: var(--casc-en);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(111, 78, 201, 0.3);
 }
 
 /* Archive table — col 3 = énoncé (blue), col 4 = solution (accent) */
