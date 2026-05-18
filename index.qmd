@@ -10,7 +10,9 @@ toc: false
 # Pratique du calcul scientifique
 
 ::: {.casc-hero-subtitle}
-Cours de l'**École Nationale des Ponts et Chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
+Cours de l'**École Nationale des Ponts et Chaussées**
+
+Langage Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
 :::
 
 ::: {.casc-hero-buttons}

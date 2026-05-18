@@ -67,7 +67,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\nFR\nEN\n\n\nSem. 2\nInterpolation\nFR\nEN\n\n\nSem. 2\nIntégration numérique\nFR\nEN\n\n\nSem. 3\nSystèmes linéaires\nFR\nEN\n\n\n\n\n\n\n\n Back to top"
+    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\nFR\nEN\n\n\nSem. 2\nInterpolation\nFR\nEN\n\n\n\nIntégration numérique\nFR\nEN\n\n\nSem. 3\nSystèmes linéaires\nFR\nEN\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "archives.html",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Informations pratiques",
     "section": "",
-    "text": "Cours de l’École Nationale des Ponts et Chaussées — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n Voir les cours  Notebooks  Polycopié"
+    "text": "Cours de l’École Nationale des Ponts et Chaussées\nLangage Julia, interpolation, intégration, systèmes linéaires, équations différentielles…\n\n\n Voir les cours  Notebooks  Polycopié"
   },
   {
     "objectID": "index.html#installations-préalables",
