@@ -19,7 +19,6 @@ website:
   back-to-top-navigation: true
   navbar:
     background: primary
-    pinned: true
     collapse-below: lg
     logo: "logo_calcul_scientifique_transparent.png"
     logo-alt: "Logo Calcul Scientifique"
