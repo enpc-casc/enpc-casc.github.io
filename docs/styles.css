@@ -27,6 +27,20 @@ body {
   letter-spacing: -0.005em;
 }
 
+.navbar {
+  --bs-navbar-padding-y: 0.5rem;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img,
+.navbar-logo {
+  max-height: 32px;
+}
+
 code, pre, .sourceCode {
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace !important;
 }
