@@ -10,7 +10,9 @@ toc: false
 # Pratique du calcul scientifique
 
 ::: {.casc-hero-subtitle}
-Cours de l'**École Nationale des Ponts et Chaussées** — Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
+Cours de l'**École Nationale des Ponts et Chaussées**
+
+Langage Julia, interpolation, intégration, systèmes linéaires, équations différentielles…
 :::
 
 ::: {.casc-hero-buttons}
@@ -80,7 +82,7 @@ Installez [VSCode](https://code.visualstudio.com/) puis l'[extension Julia](http
 
 ### Groupe 1
 
-[Jean-François Barthélémy](https://jfbarthelemy.github.io/)
+[Jean-François Barthélémy](https://jf.barthelemy.xyz/)
 
 [{{< bi envelope-fill >}} jean-francois.barthelemy@cerema.fr](mailto:jean-francois.barthelemy@cerema.fr)
 :::
