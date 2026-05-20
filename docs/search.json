@@ -67,7 +67,7 @@
     "href": "cours.html",
     "title": "Cours",
     "section": "",
-    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\nFR\nEN\n\n\nSem. 2\nInterpolation\nFR\nEN\n\n\nSem. 2\nIntégration numérique\nFR\nEN\n\n\nSem. 3\nSystèmes linéaires\nFR\nEN\n\n\n\n\n\n\n\n Back to top"
+    "text": "Les supports de cours sont disponibles en français et en anglais. Cliquez sur la version souhaitée pour ouvrir les transparents dans un nouvel onglet.\n\n\n\n\n\nSemaine\nSujet\nFrançais\nEnglish\n\n\n\n\nSem. 1\nIntroduction au langage Julia\nFR\nEN\n\n\nSem. 2\nInterpolation\nFR\nEN\n\n\nSem. 2\nIntégration numérique\nFR\nEN\n\n\nSem. 3\nSystèmes linéaires\nFR\nEN\n\n\nSem. 4\nProblèmes aux valeurs propres\nFR\nEN\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "archives.html",
@@ -116,6 +116,6 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Pour télécharger un notebook, cliquez-droit sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s’effectuent via Educnet.\n\n\n\n\n\nSemaine\nSujet\nÉnoncé\nSolution\nSoumission\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n Notebook\n HTML\n Educnet\n\n\nSem. 2\nInterpolation et intégration\n Notebook\n HTML\n Educnet\n\n\nSem. 3\nSystèmes linéaires\n Notebook\nÀ venir\n Educnet\n\n\n\n\n\n\n\n Back to top"
+    "text": "Pour télécharger un notebook, cliquez-droit sur le lien et choisissez « Enregistrer le lien sous… ». Les soumissions s’effectuent via Educnet.\n\n\n\n\n\nSemaine\nSujet\nÉnoncé\nSolution\nSoumission\n\n\n\n\nSem. 1\nIntroduction au langage Julia\n Notebook\n HTML\n Educnet\n\n\nSem. 2\nInterpolation et intégration\n Notebook\n HTML\n Educnet\n\n\nSem. 3\nSystèmes linéaires\n Notebook\nÀ venir\n Educnet\n\n\nSem. 4\nProblèmes aux valeurs propres\n Notebook\nÀ venir\nÀ venir\n\n\n\n\n\n\n\n Back to top"
   }
 ]
