@@ -12,11 +12,76 @@ Pour télécharger un notebook, **cliquez-droit** sur le lien et choisissez « E
 
 ::: {.casc-notebook-table}
 
-| Semaine | Sujet | Énoncé | Solution | Soumission |
-|---------|-------|--------|----------|------------|
-| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/intro_julia_sol.html) | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75232) |
-| [Sem. 2]{.casc-week-badge} | Interpolation et intégration | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download=""} | [{{< bi file-earmark-text >}} HTML](notebooks/interpolation_sol.html) | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75420) |
-| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download=""} | [À venir]{.casc-action-ghost} | [{{< bi cloud-upload >}} Educnet](https://educnet.enpc.fr/mod/assign/view.php?id=75567) |
-| [Sem. 4]{.casc-week-badge} | Problèmes aux valeurs propres | [{{< bi file-earmark-code >}} Notebook](notebooks/eigen.ipynb){download=""} | [À venir]{.casc-action-ghost} | [À venir]{.casc-action-ghost} |
+| Semaine | Sujet | Énoncé | Solution | Soumission Educnet |
+|---------|-------|--------|----------|--------------------------|
+| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download="intro_julia.ipynb"} | [{{< bi file-earmark-text >}} HTML](notebooks/intro_julia_sol.html) | [{{< bi cloud-upload >}} 22/04/2026](https://educnet.enpc.fr/mod/assign/view.php?id=75232){.casc-deadline data-deadline="2026-04-22T23:59:00+02:00"} |
+| [Sem. 2]{.casc-week-badge} | Interpolation et intégration | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download="interpolation.ipynb"} | [{{< bi file-earmark-text >}} HTML](notebooks/interpolation_sol.html) | [{{< bi cloud-upload >}} 06/05/2026](https://educnet.enpc.fr/mod/assign/view.php?id=75420){.casc-deadline data-deadline="2026-05-06T23:59:00+02:00"} |
+| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download="linear.ipynb"} | [{{< bi file-earmark-text >}} HTML](notebooks/linear_sol.html) | [{{< bi cloud-upload >}} 20/05/2026](https://educnet.enpc.fr/mod/assign/view.php?id=75567){.casc-deadline data-deadline="2026-05-20T23:59:00+02:00"} |
+| [Sem. 4]{.casc-week-badge} | Problèmes aux valeurs propres | [{{< bi file-earmark-code >}} Notebook](notebooks/eigen.ipynb){download="eigen.ipynb"} | [À venir]{.casc-action-ghost} | [À venir]{.casc-action-ghost} |
 
 :::
+
+<script>
+(() => {
+
+  const mn = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  const tip = document.createElement('div');
+  tip.className = 'casc-deadline-tooltip';
+  let iv = null;
+
+  document.querySelectorAll('.casc-deadline').forEach(el => {
+    el.addEventListener('mouseenter', function () {
+      const d = new Date(this.dataset.deadline);
+      if (isNaN(d.getTime())) return;
+      const day = d.getDate(), m = mn[d.getMonth()], y = d.getFullYear(),
+            h = String(d.getHours()).padStart(2,'0'), min = String(d.getMinutes()).padStart(2,'0');
+      tip.innerHTML =
+`<div class="casc-dtl-header">${m} ${y}</div>
+<div class="casc-dtl-body">
+  <div class="casc-dtl-day">${day}</div>
+  <div class="casc-dtl-time">⏰ ${h}h${min}</div>
+  <div class="casc-dtl-divider"></div>
+  <div class="casc-dtl-countdown casc-dtl-safe">
+    <span class="casc-dtl-n">--</span>j ·
+    <span class="casc-dtl-h">--</span>h ·
+    <span class="casc-dtl-m">--</span>m ·
+    <span class="casc-dtl-s">--</span>s
+  </div>
+</div>`;
+      document.body.appendChild(tip);
+      const r = this.getBoundingClientRect(), tr = tip.getBoundingClientRect();
+      let l = r.left + r.width/2 - tr.width/2, t = r.top - tr.height - 12;
+      if (l < 10) l = 10;
+      if (l + tr.width > window.innerWidth - 10) l = window.innerWidth - tr.width - 10;
+      if (t < 10) t = r.bottom + 12, tip.classList.add('casc-dtl-below');
+      else tip.classList.remove('casc-dtl-below');
+      tip.style.left = l + 'px'; tip.style.top = t + 'px';
+
+      const fn = () => {
+        const df = d - new Date();
+        const cd = tip.querySelector('.casc-dtl-countdown');
+        if (df <= 0) {
+          cd.className = 'casc-dtl-countdown casc-dtl-expired';
+          cd.innerHTML = '⛔ Date dépassée';
+          if (iv) { clearInterval(iv); iv = null; }
+          return;
+        }
+        const days = Math.floor(df / 86400000);
+        const hrs = Math.floor((df % 86400000) / 3600000);
+        const mins = Math.floor((df % 3600000) / 60000);
+        const secs = Math.floor((df % 60000) / 1000);
+        tip.querySelector('.casc-dtl-n').textContent = days;
+        tip.querySelector('.casc-dtl-h').textContent = hrs;
+        tip.querySelector('.casc-dtl-m').textContent = mins;
+        tip.querySelector('.casc-dtl-s').textContent = secs;
+        cd.className = days < 1 ? 'casc-dtl-countdown casc-dtl-critical' : days < 7 ? 'casc-dtl-countdown casc-dtl-warning' : 'casc-dtl-countdown casc-dtl-safe';
+      };
+      fn(); if (iv) clearInterval(iv); iv = setInterval(fn, 1000);
+    });
+    el.addEventListener('mouseleave', () => {
+      if (iv) { clearInterval(iv); iv = null; }
+      tip.remove();
+    });
+  });
+})();
+</script>

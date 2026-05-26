@@ -16,6 +16,8 @@
   --casc-en-soft: #efe9fb;
   --casc-card-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
   --casc-card-shadow-hover: 0 14px 28px rgba(15, 23, 42, 0.14);
+  --casc-deadline: #c0392b;
+  --casc-deadline-soft: #fdf2f2;
   --casc-radius: 14px;
   --casc-radius-sm: 10px;
 }
@@ -730,7 +732,7 @@ table.casc-table tbody td.casc-topic {
   box-shadow: 0 4px 10px rgba(111, 78, 201, 0.3);
 }
 
-/* Notebook table — col 3 = énoncé (blue), col 4 = solution (accent), col 5 = Educnet (purple) */
+/* Notebook table — col 3 = énoncé (blue), col 4 = solution (accent), col 5 = soumission · deadline (purple) */
 .casc-notebook-table table tbody td:nth-child(3) a {
   background: var(--casc-primary-light);
   color: var(--casc-primary) !important;
@@ -763,6 +765,99 @@ table.casc-table tbody td.casc-topic {
   color: #ffffff !important;
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(111, 78, 201, 0.3);
+}
+
+/* Notebook table — col 1 : pas de retour à la ligne (badge semaine) */
+.casc-notebook-table table tbody td:nth-child(1) {
+  white-space: nowrap;
+}
+
+/* Tooltip calendrier au survol de la deadline */
+.casc-deadline {
+  cursor: help;
+}
+
+.casc-deadline-tooltip {
+  position: fixed;
+  z-index: 1000;
+  width: 170px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: "Inter", system-ui, sans-serif;
+  pointer-events: none;
+}
+
+.casc-dtl-header {
+  background: var(--casc-deadline);
+  color: #ffffff;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.casc-dtl-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.casc-dtl-day {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.casc-dtl-time {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+.casc-dtl-divider {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 0.7rem 0;
+}
+
+.casc-dtl-countdown {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #0f172a;
+  font-variant-numeric: tabular-nums;
+}
+
+.casc-dtl-safe { color: #2a9d8f; }
+.casc-dtl-warning { color: #e67e22; }
+.casc-dtl-critical { color: #c0392b; }
+.casc-dtl-expired { color: #94a3b8; }
+
+/* Dark mode */
+[data-bs-theme="dark"] .casc-deadline-tooltip,
+.quarto-dark .casc-deadline-tooltip {
+  background: #1e293b;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+[data-bs-theme="dark"] .casc-dtl-day,
+.quarto-dark .casc-dtl-day {
+  color: #f1f5f9;
+}
+[data-bs-theme="dark"] .casc-dtl-time,
+.quarto-dark .casc-dtl-time {
+  color: #94a3b8;
+}
+[data-bs-theme="dark"] .casc-dtl-divider,
+.quarto-dark .casc-dtl-divider {
+  background: #334155;
+}
+[data-bs-theme="dark"] .casc-dtl-countdown,
+.quarto-dark .casc-dtl-countdown {
+  color: #f1f5f9;
 }
 
 /* Archive table — col 3 = énoncé (blue), col 4 = solution (accent) */
