@@ -12,12 +12,13 @@ Les supports de cours sont disponibles en **français** et en **anglais**. Cliqu
 
 ::: {.casc-course-table}
 
-| Semaine | Sujet | Français | English |
-|---------|-------|----------|---------|
-| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [FR](cours/julia_fr.html){target="_blank"} | [EN](cours/julia_en.html){target="_blank"} |
-| [Sem. 2]{.casc-week-badge} | Interpolation | [FR](cours/interpolation_fr.html){target="_blank"} | [EN](cours/interpolation_en.html){target="_blank"} |
-|                            | Intégration numérique | [FR](cours/integration_fr.html){target="_blank"} | [EN](cours/integration_en.html){target="_blank"} |
-| [Sem. 3]{.casc-week-badge} | Systèmes linéaires | [FR](cours/linear_fr.html){target="_blank"} | [EN](cours/linear_en.html){target="_blank"} |
-| [Sem. 4]{.casc-week-badge} | Problèmes aux valeurs propres | [FR](cours/eigen_fr.html){target="_blank"} | [EN](cours/eigen_en.html){target="_blank"} |
+| Semaine                    | Sujet                         | Français                                           | English                                            |
+| ---------                  | -------                       | ----------                                         | ---------                                          |
+| [Sem. 1]{.casc-week-badge} | Introduction au langage Julia | [FR](cours/julia_fr.html){target="_blank"}         | [EN](cours/julia_en.html){target="_blank"}         |
+| [Sem. 2]{.casc-week-badge} | Interpolation                 | [FR](cours/interpolation_fr.html){target="_blank"} | [EN](cours/interpolation_en.html){target="_blank"} |
+|                            | Intégration numérique         | [FR](cours/integration_fr.html){target="_blank"}   | [EN](cours/integration_en.html){target="_blank"}   |
+| [Sem. 3]{.casc-week-badge} | Systèmes linéaires            | [FR](cours/linear_fr.html){target="_blank"}        | [EN](cours/linear_en.html){target="_blank"}        |
+| [Sem. 4]{.casc-week-badge} | Problèmes aux valeurs propres | [FR](cours/eigen_fr.html){target="_blank"}         | [EN](cours/eigen_en.html){target="_blank"}         |
+| [Sem. 5]{.casc-week-badge} | Systèmes non-linéaires        | [FR](cours/nonlinear_fr.html){target="_blank"}     | [EN](cours/nonlinear_en.html){target="_blank"}     |
 
 :::
