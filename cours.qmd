@@ -20,5 +20,6 @@ Les supports de cours sont disponibles en **français** et en **anglais**. Cliqu
 | [Sem. 3]{.casc-week-badge} | Systèmes linéaires            | [FR](cours/linear_fr.html){target="_blank"}        | [EN](cours/linear_en.html){target="_blank"}        |
 | [Sem. 4]{.casc-week-badge} | Problèmes aux valeurs propres | [FR](cours/eigen_fr.html){target="_blank"}         | [EN](cours/eigen_en.html){target="_blank"}         |
 | [Sem. 5]{.casc-week-badge} | Systèmes non-linéaires        | [FR](cours/nonlinear_fr.html){target="_blank"}     | [EN](cours/nonlinear_en.html){target="_blank"}     |
+| [Sem. 6]{.casc-week-badge} | Équations différentielles     | [FR](cours/odes_fr.html){target="_blank"}          | [EN](cours/odes_en.html.html){target="_blank"}     |
 
 :::
