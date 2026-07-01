@@ -49,9 +49,9 @@ website:
         text: Crédits
         icon: people
     tools:
-      - icon: git
-        href: https://codeberg.org/enpc-casc
-        text: "Dépôt Codeberg"
+      - icon: github
+        href: https://github.com/enpc-casc/enpc-casc.github.io
+        text: "Dépôt GitHub"
   page-footer:
     background: light
     left: |

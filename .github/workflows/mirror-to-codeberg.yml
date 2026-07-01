@@ -1,0 +1,27 @@
+name: Mirror to Codeberg
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: mirror-codeberg
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # historique complet pour un push fidèle
+      - name: Configurer la clé SSH Codeberg
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.CODEBERG_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
+      - name: Pousser vers Codeberg (main uniquement)
+        run: |
+          git push --force git@codeberg.org:enpc-casc/pages.git HEAD:main
+          git push --force --tags git@codeberg.org:enpc-casc/pages.git
